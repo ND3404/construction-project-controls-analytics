@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Construction Project Controls Analytics — Case Study</title>
+<meta name="description" content="Early-warning analysis of cost and schedule performance across a synthetic 75-project, $5.83B construction portfolio. SQL, Python, earned-value analysis.">
+<style>
+  :root{
+    --navy:#12395B; --blue:#1F6FB2; --teal:#2E8B99; --amber:#E0A32E;
+    --red:#C0392B; --green:#3F8F5C; --ink:#33414F; --grey:#6B7785;
+    --light:#E8EDF2; --line:#D5DEE8;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:#fff}
+  .wrap{max-width:1020px;margin:0 auto;padding:0 24px}
+  header{background:linear-gradient(160deg,var(--navy),#1c5583);color:#fff;padding:64px 0 56px}
+  header h1{margin:0 0 12px;font-size:2.35rem;line-height:1.2;letter-spacing:-.02em}
+  header p.lede{margin:0 0 26px;font-size:1.1rem;color:#cfe0ee;max-width:640px}
+  .btns{display:flex;flex-wrap:wrap;gap:12px}
+  .btn{display:inline-block;padding:11px 20px;border-radius:8px;text-decoration:none;font-weight:600;font-size:.95rem;transition:.15s}
+  .btn.primary{background:#fff;color:var(--navy)}
+  .btn.primary:hover{background:#e9f1f8}
+  .btn.ghost{border:1px solid rgba(255,255,255,.5);color:#fff}
+  .btn.ghost:hover{background:rgba(255,255,255,.12)}
+  .note{margin:0;padding:14px 0;background:#FFF6E5;border-bottom:1px solid #F0DFB8;font-size:.9rem;color:#6b5520}
+  section{padding:52px 0;border-bottom:1px solid var(--line)}
+  section:last-of-type{border-bottom:0}
+  h2{color:var(--navy);font-size:1.5rem;margin:0 0 8px;letter-spacing:-.01em}
+  .sub{color:var(--grey);margin:0 0 26px}
+  .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(165px,1fr));gap:14px}
+  .kpi{background:var(--light);border-radius:10px;padding:16px 18px}
+  .kpi .l{font-size:.8rem;color:var(--grey);margin-bottom:6px}
+  .kpi .v{font-size:1.55rem;font-weight:700;color:var(--navy);line-height:1.15}
+  .kpi .v.bad{color:var(--red)} .kpi .v.warn{color:var(--amber)}
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:18px}
+  .card{border:1px solid var(--line);border-radius:12px;padding:22px;text-decoration:none;color:inherit;display:block;transition:.15s;background:#fff}
+  .card:hover{border-color:var(--blue);box-shadow:0 10px 26px rgba(23,54,93,.10);transform:translateY(-2px)}
+  .card h3{margin:0 0 8px;color:var(--navy);font-size:1.08rem}
+  .card p{margin:0;font-size:.93rem;color:var(--grey)}
+  .findings{display:grid;gap:16px}
+  .f{display:flex;gap:14px;align-items:flex-start}
+  .dot{flex:0 0 9px;height:9px;border-radius:50%;margin-top:8px}
+  figure{margin:34px 0 0}
+  figure img{width:100%;border:1px solid var(--line);border-radius:10px;box-shadow:0 12px 30px rgba(23,54,93,.10);display:block}
+  figcaption{margin-top:10px;font-size:.9rem;color:var(--grey)}
+  footer{padding:34px 0 46px;font-size:.88rem;color:var(--grey)}
+  footer a{color:var(--blue)}
+  @media(max-width:600px){header{padding:44px 0 38px}header h1{font-size:1.8rem}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <h1>Construction Project Controls Analytics</h1>
+    <p class="lede">Which project-controls metrics move <em>first</em> — early enough to intervene? An end-to-end analysis of cost and schedule performance across a 75-project, $5.83B portfolio.</p>
+    <div class="btns">
+      <a class="btn primary" href="share/portfolio/personal_portfolio_case_study.html">Read the case study</a>
+      <a class="btn ghost" href="https://github.com/ND3404/construction-project-controls-analytics">View source on GitHub</a>
+      <a class="btn ghost" href="final_report/Construction_Project_Controls_Analytics_Case_Study.pdf">Full report (PDF)</a>
+    </div>
+  </div>
+</header>
+
+<div class="note"><div class="wrap"><strong>Data disclosure:</strong> every record is synthetic. Projects, clients and personnel are fictional. Nothing here represents actual client performance or verified industry benchmarks.</div></div>
+
+<section>
+  <div class="wrap">
+    <h2>Portfolio position</h2>
+    <p class="sub">48 months of earned-value data, change orders and RFI logs across 75 projects.</p>
+    <div class="kpis">
+      <div class="kpi"><div class="l">Budget at completion</div><div class="v">$5.83B</div></div>
+      <div class="kpi"><div class="l">Forecast at completion</div><div class="v">$6.59B</div></div>
+      <div class="kpi"><div class="l">Forecast overrun</div><div class="v bad">13.0%</div></div>
+      <div class="kpi"><div class="l">Weighted CPI</div><div class="v bad">0.884</div></div>
+      <div class="kpi"><div class="l">Average delay</div><div class="v warn">33.7 days</div></div>
+      <div class="kpi"><div class="l">Projects at Red</div><div class="v bad">50 of 75</div></div>
+    </div>
+    <figure>
+      <img src="share/assets/portfolio_health_overview.png" alt="Portfolio health distribution and key performance indicators">
+      <figcaption>Two-thirds of the portfolio sits at Red status, with a forecast overrun of $755.6M.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>What the analysis found</h2>
+    <p class="sub">Five results that shaped the recommendations.</p>
+    <div class="findings">
+      <div class="f"><span class="dot" style="background:var(--blue)"></span><div><strong>Contingency burn ratio is the strongest early-warning signal.</strong> It explains 81% of the variance in forecast overrun (r = 0.901) and is measurable from month one — well before CPI crosses a reporting threshold.</div></div>
+      <div class="f"><span class="dot" style="background:var(--teal)"></span><div><strong>RFI turnaround matters; RFI volume does not.</strong> Response time correlates with schedule delay (r = 0.517), while RFI density does not (r = −0.058).</div></div>
+      <div class="f"><span class="dot" style="background:var(--amber)"></span><div><strong>SPI hides lateness.</strong> Weighted SPI held near 1.00 throughout while average forecast delay reached 33.7 days — the index converges to 1.0 at completion regardless of how late a project finishes.</div></div>
+      <div class="f"><span class="dot" style="background:var(--red)"></span><div><strong>Cost and schedule risk come from different change-order causes.</strong> Owner-directed changes drive the most cost ($42.8M); unforeseen conditions drive the most delay (700 days).</div></div>
+      <div class="f"><span class="dot" style="background:var(--green)"></span><div><strong>Late RFIs are a systemic constraint.</strong> Every discipline answers more than 70% of RFIs late, clustered tightly at 13.9–15.5 days.</div></div>
+    </div>
+    <figure>
+      <img src="share/assets/early_warning_correlations.png" alt="Scatter plots of contingency burn ratio against forecast overrun, and RFI response time against schedule delay">
+      <figcaption>Contingency burn ratio against forecast overrun (left) and RFI response time against schedule delay (right). Correlation does not establish causation.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Explore</h2>
+    <p class="sub">Full write-ups, source data and query code.</p>
+    <div class="cards">
+      <a class="card" href="share/portfolio/personal_portfolio_case_study.html">
+        <h3>Portfolio case study →</h3>
+        <p>The full narrative walkthrough with all seven charts and interpretation.</p></a>
+      <a class="card" href="share/portfolio/in_project_case_study.html">
+        <h3>Capability overview →</h3>
+        <p>A shorter framing of the analytics services the study demonstrates.</p></a>
+      <a class="card" href="final_report/Construction_Project_Controls_Analytics_Case_Study.pdf">
+        <h3>Consolidated report (PDF) →</h3>
+        <p>Formal report covering all six analysis phases end to end.</p></a>
+      <a class="card" href="https://github.com/ND3404/construction-project-controls-analytics/tree/main/sql">
+        <h3>SQL &amp; data model →</h3>
+        <p>Schema, data-quality checks, analytical views and query library.</p></a>
+      <a class="card" href="https://github.com/ND3404/construction-project-controls-analytics/tree/main/analysis/tables">
+        <h3>Analysis outputs →</h3>
+        <p>Eleven analytical tables behind every figure on this page.</p></a>
+      <a class="card" href="https://github.com/ND3404/construction-project-controls-analytics/blob/main/documentation/dataset_methodology.md">
+        <h3>Methodology &amp; limitations →</h3>
+        <p>How the dataset was constructed and what it cannot be used to claim.</p></a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    Built with SQL, Python (pandas, matplotlib) and Excel.
+    Code and documentation released under the <a href="https://github.com/ND3404/construction-project-controls-analytics/blob/main/LICENSE">MIT License</a>.
+    All data is synthetic and for demonstration only.
+  </div>
+</footer>
+
+</body>
+</html>
