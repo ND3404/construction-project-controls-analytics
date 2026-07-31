@@ -1,0 +1,25 @@
+{
+  "project": "Construction Project Controls Analytics",
+  "phase": "Process complete",
+  "dataset_version": "1.0-clean",
+  "raw_counts": {
+    "projects": 77,
+    "monthly_performance": 1747,
+    "change_orders": 557,
+    "rfi_log": 1518
+  },
+  "clean_counts": {
+    "projects": 75,
+    "monthly_performance": 1743,
+    "change_orders": 553,
+    "rfi_log": 1514
+  },
+  "duplicates_removed": 12,
+  "invalid_parent_records_quarantined": 2,
+  "critical_values_repaired": 16,
+  "validation_checks": {
+    "passed": 22,
+    "total": 22
+  },
+  "sqlite_foreign_key_violations": 0
+}

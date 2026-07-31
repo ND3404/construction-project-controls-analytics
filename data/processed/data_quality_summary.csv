@@ -1,0 +1,5 @@
+﻿Table,Raw_Rows,Clean_Rows,Rows_Removed_or_Quarantined,Duplicate_Rows_Removed,Invalid_FK_Rows_Quarantined,Repaired_Critical_Values,Final_Primary_Key_Duplicates
+Projects,77,75,2,2,0,0,0
+Monthly Performance,1747,1743,4,4,0,7,0
+Change Orders,557,553,4,3,1,4,0
+RFI Log,1518,1514,4,3,1,5,0

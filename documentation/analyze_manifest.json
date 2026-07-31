@@ -1,0 +1,29 @@
+{
+  "phase": "Analyze complete",
+  "project_count": 75,
+  "portfolio_bac": 5831436600,
+  "portfolio_eac": 6586989965.696901,
+  "forecast_overrun_pct": 0.1295655629175324,
+  "weighted_cpi": 0.8841653039797939,
+  "weighted_spi": 0.9871722664956887,
+  "average_delay_days": 33.68,
+  "health_distribution": {
+    "Red": 50,
+    "Yellow": 13,
+    "Green": 12
+  },
+  "validation": {
+    "project_analysis_rows": 75,
+    "sqlite_view_rows": 75,
+    "formula_error_scan": "0 matches"
+  },
+  "key_correlations": {
+    "Approved CO % vs Cost Growth %": 0.9997725176565356,
+    "Approved CO % vs Forecast Overrun %": 0.40046751443046885,
+    "Average RFI Response Days vs Schedule Delay Days": 0.5169476306660469,
+    "Late RFI Rate vs Schedule Delay Days": 0.34280744117618156,
+    "Contingency Burn Ratio vs Forecast Overrun %": 0.9008350333465079,
+    "RFI Density vs Schedule Delay Days": -0.05782551681487961,
+    "CO Density vs Forecast Overrun %": 0.15211221804444774
+  }
+}

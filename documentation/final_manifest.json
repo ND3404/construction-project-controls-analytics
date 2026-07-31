@@ -1,0 +1,71 @@
+{
+  "project": "Construction Project Controls Analytics",
+  "status": "Complete",
+  "completed_at_utc": "2026-07-30T00:27:55+00:00",
+  "phases": {
+    "Ask": "Complete",
+    "Prepare": "Complete",
+    "Process": "Complete",
+    "Analyze": "Complete",
+    "Share": "Complete",
+    "Act": "Complete"
+  },
+  "portfolio_results": {
+    "Project_Count": 75,
+    "Total_BAC": 5831436600,
+    "Total_EAC": 6586989965.696901,
+    "Weighted_CPI": 0.8841653039797939,
+    "Weighted_SPI": 0.9871722664956887,
+    "Average_Delay_Days": 33.68,
+    "Red_Projects": 50,
+    "Yellow_Projects": 13,
+    "Green_Projects": 12,
+    "Contingency_Utilization_Pct": 0.662258416638753,
+    "Net_Forecast_Variance": 755553365.6969013,
+    "Forecast_Overrun_Pct": 0.1295655629175324
+  },
+  "automation_validation": {
+    "management_alert_rows": 50,
+    "expected_red_projects": 50,
+    "status": "Passed"
+  },
+  "quality": {
+    "act_workbook_formula_error_matches": 0,
+    "docx_pages_visually_inspected": 15,
+    "pdf_generated_from_final_docx": true
+  },
+  "key_files": {
+    "final_report/Construction_Project_Controls_Analytics_Case_Study.docx": {
+      "size_bytes": 787242,
+      "sha256": "28258e3462bf2ea182aa6e8fc34a1cba446bee5f3b2b2b1c6e8420165d571671"
+    },
+    "final_report/Construction_Project_Controls_Analytics_Case_Study.pdf": {
+      "size_bytes": 1170245,
+      "sha256": "72ade56732694df9ba48c92abaf1bc66d029841244c605352862de6104b45797"
+    },
+    "act/construction_project_controls_act_plan.xlsx": {
+      "size_bytes": 23272,
+      "sha256": "10c92155b6e892073b61341885e25982c91265664aa4186d2ebdefec6b6f07c2"
+    },
+    "share/construction_project_controls_share_dashboard.xlsx": {
+      "size_bytes": 110097,
+      "sha256": "9809d0c7b1ffedf8488e106349cfa98296e3e1e519d180bbff67c32f9c7d7ef4"
+    },
+    "analysis/excel/construction_project_controls_analysis.xlsx": {
+      "size_bytes": 82696,
+      "sha256": "c02c5b4ea8fc1825190c3abac96876c19c87c1d9a6ab4f3c63de78454412ac87"
+    },
+    "automation/generate_management_alerts.py": {
+      "size_bytes": 3227,
+      "sha256": "b8f95bce7e238e117f95a64edd28ebbefbc82efe7b53d77b87900988604417f3"
+    },
+    "automation/run_analytics_pipeline.ps1": {
+      "size_bytes": 1532,
+      "sha256": "a7e4e462d85318c464b5c4f2db6fefc16817c78b220eebbbffcc5808dafadfc7"
+    },
+    "automation/output/management_alerts.csv": {
+      "size_bytes": 11745,
+      "sha256": "017ef53a3c55aa41ae760005a2aeb59de46476bd3e3df63088a3a82b69888534"
+    }
+  }
+}

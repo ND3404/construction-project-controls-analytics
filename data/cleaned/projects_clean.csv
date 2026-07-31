@@ -1,0 +1,76 @@
+﻿Project_ID,Project_Name,Project_Type,City,State,Client_Type,Contract_Type,Delivery_Method,Project_Manager_ID,Original_Budget,Current_Budget,Original_Contingency,Start_Date,Planned_End_Date,Forecast_End_Date,Project_Status,Current_Phase,Percent_Complete
+PRJ-001,Desert Willow Public Safety Center,Institutional,Salt Lake City,UT,Public,Lump Sum,CMAR,PM-008,47876900,48500200,2996700,2024-06-09,2025-12-09,2026-01-23,Active,Closeout,99.6
+PRJ-002,Westfield Town Center,Mixed-Use,Salem,OR,Public,Guaranteed Maximum Price,CMAR,PM-005,212894800,221375700,11291700,2022-04-17,2024-05-17,2024-07-25,Complete,Closeout,100.0
+PRJ-003,Mountain Gate Living Community,Residential,Santa Fe,NM,Private,Guaranteed Maximum Price,Design-Build,PM-004,55221600,56325600,3875600,2023-02-11,2025-03-11,2025-04-22,Complete,Closeout,100.0
+PRJ-004,Red Rock Urban Village,Mixed-Use,Albuquerque,NM,Private,Lump Sum,Design-Bid-Build,PM-007,118914500,122268000,6654300,2022-05-19,2025-01-19,2025-03-08,Complete,Closeout,100.0
+PRJ-005,Pioneer Crossing Living Community,Residential,Mesa,AZ,Private,Lump Sum,Design-Bid-Build,PM-006,76603500,77653900,4401700,2022-10-01,2024-09-01,2024-08-29,Complete,Closeout,100.0
+PRJ-006,Red Rock Bridge Rehabilitation,Heavy Civil & Infrastructure,Idaho Falls,ID,Public,Unit Price,Design-Bid-Build,PM-002,36211800,36646600,1839800,2021-07-05,2024-09-05,2024-09-15,Complete,Closeout,100.0
+PRJ-007,Granite Peak Apartments,Residential,Salem,OR,Public,Guaranteed Maximum Price,Design-Bid-Build,PM-007,29562600,30109700,1625900,2023-09-02,2025-06-02,2025-06-18,Complete,Closeout,100.0
+PRJ-008,Northstar Community College,Institutional,Las Cruces,NM,Private,Lump Sum,Design-Bid-Build,PM-012,122227200,127351100,6535400,2023-08-07,2025-07-07,2025-07-30,Complete,Closeout,100.0
+PRJ-009,Northstar Housing,Residential,Salt Lake City,UT,Private,Guaranteed Maximum Price,Design-Build,PM-002,34594800,35471700,2739400,2021-12-12,2023-04-12,2023-06-14,Complete,Closeout,100.0
+PRJ-010,Silver Lake Bridge Rehabilitation,Heavy Civil & Infrastructure,Fort Collins,CO,Public,Lump Sum,CMAR,PM-009,115348100,116127800,9324700,2022-03-20,2024-02-20,2024-01-21,Complete,Closeout,100.0
+PRJ-011,Westfield Housing,Residential,Mesa,AZ,Public,Guaranteed Maximum Price,Design-Bid-Build,PM-006,27228800,27507400,2455500,2022-08-14,2023-12-14,2024-01-13,Complete,Closeout,100.0
+PRJ-012,Cedar Valley Processing Plant,Industrial,Henderson,NV,Public,Cost Plus,Design-Bid-Build,PM-009,23128700,23520900,1511200,2022-11-02,2025-06-02,2025-05-24,Complete,Closeout,100.0
+PRJ-013,Sunrise Housing,Residential,Meridian,ID,Private,Cost Plus,Design-Bid-Build,PM-005,9869600,10215500,609900,2022-08-11,2024-05-11,2024-07-11,Complete,Closeout,100.0
+PRJ-014,Mountain Gate Bridge Rehabilitation,Heavy Civil & Infrastructure,Las Vegas,NV,Public,Unit Price,Design-Build,PM-008,102493600,105736500,7725500,2023-12-10,2026-05-10,2026-07-23,Active,Construction,88.3
+PRJ-015,Summit Point Main Street Development,Mixed-Use,Fresno,CA,Public,Guaranteed Maximum Price,Design-Bid-Build,PM-007,60271400,60423500,4382900,2022-03-14,2024-07-14,2024-07-10,Complete,Closeout,100.0
+PRJ-016,Canyon Ridge Processing Plant,Industrial,Salt Lake City,UT,Private,Lump Sum,Design-Build,PM-008,56509100,56919400,5602900,2021-08-17,2023-03-17,2023-03-28,Complete,Closeout,100.0
+PRJ-017,Westfield Retail Center,Commercial,Fresno,CA,Private,Unknown,CMAR,PM-003,36594000,37286000,1781600,2023-11-07,2026-01-07,2026-02-24,Active,Closeout,98.8
+PRJ-018,Summit Point Retail Center,Commercial,Tempe,AZ,Private,Lump Sum,Design-Build,PM-012,86603400,89995700,5291900,2024-01-18,2025-02-18,2025-04-24,Complete,Closeout,100.0
+PRJ-019,Copper Creek Learning Center,Institutional,San Antonio,TX,Private,Unknown,Design-Bid-Build,PM-012,102004800,104613700,9598300,2024-11-13,2026-12-13,2026-12-08,Active,Construction,57.0
+PRJ-020,Granite Peak Housing,Residential,Mesa,AZ,Public,Unknown,Design-Build,PM-001,35061100,35288000,3074600,2023-10-16,2025-08-16,2025-09-26,Complete,Closeout,100.0
+PRJ-021,Highland Park Roadway Improvements,Heavy Civil & Infrastructure,Las Cruces,NM,Public,Guaranteed Maximum Price,Design-Build,PM-009,67733200,68598600,6687100,2022-07-12,2024-04-12,2024-03-22,Complete,Closeout,100.0
+PRJ-022,Summit Point Public Safety Center,Institutional,Spokane,WA,Public,Guaranteed Maximum Price,Design-Build,PM-001,64744000,65132800,3915700,2024-09-14,2026-09-14,2026-11-01,Active,Construction,65.9
+PRJ-023,Blue Mesa Medical Center,Institutional,San Antonio,TX,Public,Guaranteed Maximum Price,Design-Build,PM-007,53214100,55945100,4374600,2024-03-17,2026-11-17,2027-01-22,Active,Construction,68.8
+PRJ-024,Northstar Technology Facility,Industrial,Albuquerque,NM,Private,Unit Price,Design-Bid-Build,PM-006,172542200,179412400,8046600,2024-09-14,2026-03-14,2026-04-26,Active,Construction,89.9
+PRJ-025,Blue Mesa Public Safety Center,Institutional,Tacoma,WA,Public,Cost Plus,CMAR,PM-008,21839800,22229200,1701300,2024-10-08,2027-04-08,2027-07-04,Active,Procurement,42.4
+PRJ-026,Pioneer Crossing Distribution Center,Industrial,Idaho Falls,ID,Private,Guaranteed Maximum Price,Design-Build,PM-007,45993600,46567600,4019900,2024-07-03,2026-09-03,2026-09-08,Active,Construction,76.5
+PRJ-027,Pioneer Crossing Market Hall,Commercial,Santa Fe,NM,Private,Unit Price,Integrated Project Delivery,PM-009,17917700,18159800,846000,2024-05-13,2026-05-13,2026-06-22,Active,Construction,87.1
+PRJ-028,Evergreen Residences,Residential,Santa Fe,NM,Private,Cost Plus,Design-Bid-Build,PM-001,9052000,9293400,604800,2021-10-01,2023-12-01,2024-01-05,Complete,Closeout,100.0
+PRJ-029,Granite Peak Bridge Rehabilitation,Heavy Civil & Infrastructure,Reno,NV,Public,Lump Sum,CMAR,PM-010,123914200,126668300,9348900,2024-02-12,2026-09-12,2026-08-13,Active,Construction,88.1
+PRJ-030,Wasatch View Town Center,Mixed-Use,Meridian,ID,Public,Unit Price,Design-Bid-Build,PM-011,253200300,259343000,12089600,2023-04-19,2025-09-19,2025-12-22,Complete,Closeout,100.0
+PRJ-031,Canyon Ridge Medical Center,Institutional,Las Cruces,NM,Public,Guaranteed Maximum Price,CMAR,PM-007,15252700,15359400,1074000,2021-07-13,2024-05-13,2024-06-07,Complete,Closeout,100.0
+PRJ-032,Silver Lake Distribution Center,Industrial,Las Cruces,NM,Private,Guaranteed Maximum Price,Design-Build,PM-012,166470500,176506400,10548900,2023-02-16,2025-04-16,2025-06-13,Complete,Closeout,100.0
+PRJ-033,Copper Creek Utility Expansion,Heavy Civil & Infrastructure,Santa Fe,NM,Public,Unit Price,Design-Bid-Build,PM-010,297370800,305739600,28683800,2023-05-13,2025-09-13,2025-08-14,Complete,Closeout,100.0
+PRJ-034,Mountain Gate Community College,Institutional,Fresno,CA,Public,Unit Price,CMAR,PM-012,59981900,62406100,4517500,2021-08-09,2024-06-09,2024-07-17,Complete,Closeout,100.0
+PRJ-035,Copper Creek Transit-Oriented Development,Mixed-Use,Aurora,CO,Private,Lump Sum,Design-Bid-Build,PM-011,159465200,161802600,7279100,2022-10-13,2024-09-13,2024-11-02,Complete,Closeout,100.0
+PRJ-036,Canyon Ridge Residences,Residential,Meridian,ID,Private,Unit Price,Design-Build,PM-010,13348200,13714700,1050300,2024-07-18,2026-09-18,2026-10-10,Active,Construction,72.1
+PRJ-037,Red Rock Townhomes,Residential,Portland,OR,Private,Guaranteed Maximum Price,CMAR,PM-007,81557700,82209900,8071900,2022-10-10,2025-01-10,2025-01-23,Complete,Closeout,100.0
+PRJ-038,Mountain Gate Business Park,Commercial,Idaho Falls,ID,Private,Unit Price,Integrated Project Delivery,PM-008,22273300,22592200,1367500,2022-06-15,2024-02-15,2024-05-26,Complete,Closeout,100.0
+PRJ-039,Riverbend Civic Center,Institutional,Henderson,NV,Public,Unit Price,CMAR,PM-001,37607400,38041300,3050400,2022-05-17,2024-02-17,2024-04-04,Complete,Closeout,100.0
+PRJ-040,Silver Lake Learning Center,Institutional,Riverside,CA,Public,Unit Price,Design-Build,PM-003,92261500,93973600,5190200,2022-10-17,2025-06-17,2025-08-23,Complete,Closeout,100.0
+PRJ-041,Westfield Residences,Residential,Fresno,CA,Private,Guaranteed Maximum Price,Integrated Project Delivery,PM-008,39698700,40381800,3209000,2023-05-09,2024-11-09,2024-11-11,Complete,Closeout,100.0
+PRJ-042,Northstar Corporate Campus,Commercial,Salem,OR,Private,Cost Plus,Design-Build,PM-008,8337500,8438700,494500,2021-08-13,2023-10-13,2023-10-13,Complete,Closeout,100.0
+PRJ-043,Copper Creek Logistics Hub,Industrial,Dallas,TX,Private,Cost Plus,CMAR,PM-007,249765500,259244400,24582100,2022-12-14,2025-06-14,2025-07-22,Complete,Closeout,100.0
+PRJ-044,Canyon Ridge Urban Village,Mixed-Use,Portland,OR,Private,Lump Sum,Design-Build,PM-006,79900800,81018700,6493900,2024-10-10,2027-08-10,2027-09-05,Active,Procurement,38.4
+PRJ-045,Desert Willow Learning Center,Institutional,Portland,OR,Public,Unit Price,Design-Bid-Build,PM-002,51862400,53099400,3380500,2023-06-12,2025-08-12,2025-09-08,Complete,Closeout,100.0
+PRJ-046,Red Rock Residences,Residential,Boise,ID,Private,Lump Sum,Design-Build,PM-002,64273500,66560500,5073200,2021-07-20,2023-05-20,2023-08-12,Complete,Closeout,100.0
+PRJ-047,Northstar Roadway Improvements,Heavy Civil & Infrastructure,Fresno,CA,Public,Unit Price,CMAR,PM-005,65704000,65704000,4972500,2022-09-11,2025-05-11,2025-04-27,Complete,Closeout,100.0
+PRJ-048,Mesa Vista Urban Village,Mixed-Use,Idaho Falls,ID,Private,Guaranteed Maximum Price,CMAR,PM-008,42336600,43200200,4226300,2021-09-15,2024-05-15,2024-04-15,Complete,Closeout,100.0
+PRJ-049,Red Rock Business Park,Commercial,Sacramento,CA,Private,Guaranteed Maximum Price,CMAR,PM-007,5632400,5753800,322500,2023-03-10,2024-10-10,2024-10-20,Complete,Closeout,100.0
+PRJ-050,Copper Creek Mixed-Use District,Mixed-Use,Fresno,CA,Private,Guaranteed Maximum Price,Design-Bid-Build,PM-001,67108500,68117300,5408000,2023-12-17,2026-03-17,2026-04-10,Active,Closeout,96.1
+PRJ-051,Westfield Technology Facility,Industrial,Seattle,WA,Public,Guaranteed Maximum Price,Design-Build,PM-012,108544300,109327700,9834600,2021-08-10,2023-07-10,2023-06-10,Complete,Closeout,100.0
+PRJ-052,Cedar Valley Market Hall,Commercial,Portland,OR,Public,Guaranteed Maximum Price,Design-Build,PM-002,12129200,12238200,672600,2023-04-02,2025-06-02,2025-05-03,Complete,Closeout,100.0
+PRJ-053,Summit Point Bridge Rehabilitation,Heavy Civil & Infrastructure,Scottsdale,AZ,Public,Lump Sum,Design-Build,PM-006,125893400,130412400,10257700,2024-03-01,2026-01-01,2026-02-04,Active,Closeout,99.3
+PRJ-054,Evergreen Corporate Campus,Commercial,Colorado Springs,CO,Private,Guaranteed Maximum Price,CMAR,PM-004,84587500,85582600,4106100,2022-06-15,2024-03-15,2024-04-08,Complete,Closeout,100.0
+PRJ-055,Sunrise Market Hall,Commercial,Spokane,WA,Private,Lump Sum,Design-Bid-Build,PM-009,30802600,31227600,2330000,2021-11-16,2022-10-16,2022-11-06,Complete,Closeout,100.0
+PRJ-056,Evergreen Medical Center,Institutional,Fort Worth,TX,Public,Lump Sum,Design-Bid-Build,PM-004,32329300,33008800,2313900,2022-07-18,2024-02-18,2024-04-03,Complete,Closeout,100.0
+PRJ-057,Highland Park Medical Center,Institutional,Denver,CO,Public,Unit Price,Design-Bid-Build,PM-003,49732600,50949700,3172800,2024-01-16,2025-12-16,2026-02-22,Active,Closeout,98.6
+PRJ-058,Silver Lake Civic Center,Institutional,Salt Lake City,UT,Public,Lump Sum,Design-Bid-Build,PM-011,44536700,45550800,4216600,2023-04-11,2025-07-11,2025-09-04,Complete,Closeout,100.0
+PRJ-059,Westfield Community College,Institutional,Tacoma,WA,Public,Unit Price,CMAR,PM-010,36111700,36561800,3303200,2024-10-11,2027-07-11,2027-07-07,Active,Procurement,42.0
+PRJ-060,Mesa Vista Office Center,Commercial,Dallas,TX,Public,Lump Sum,Design-Build,PM-011,20440400,20956500,1974100,2023-02-07,2024-02-07,2024-04-13,Complete,Closeout,100.0
+PRJ-061,Riverbend Business Park,Commercial,Tempe,AZ,Private,Guaranteed Maximum Price,Design-Build,PM-007,50400400,52995000,3036000,2023-04-15,2024-04-15,2024-05-29,Complete,Closeout,100.0
+PRJ-062,Riverbend Distribution Center,Industrial,Henderson,NV,Private,Lump Sum,Design-Bid-Build,PM-006,56681500,57822100,3485200,2024-08-01,2027-07-01,2027-08-26,Active,Procurement,44.3
+PRJ-063,Copper Creek Water Program,Heavy Civil & Infrastructure,Albuquerque,NM,Public,Cost Plus,Integrated Project Delivery,PM-003,260432500,271624500,23076800,2024-04-04,2026-09-04,2026-10-09,Active,Construction,77.5
+PRJ-064,Evergreen Townhomes,Residential,Riverside,CA,Private,Unit Price,Design-Build,PM-009,9022900,9260200,537500,2022-07-15,2024-04-15,2024-05-19,Complete,Closeout,100.0
+PRJ-065,Pioneer Crossing Logistics Hub,Industrial,Santa Fe,NM,Private,Unit Price,Design-Build,PM-011,105687000,108219700,9067800,2021-09-09,2023-11-09,2024-01-06,Complete,Closeout,100.0
+PRJ-066,Aspen Grove Medical Center,Institutional,St. George,UT,Public,Lump Sum,Design-Bid-Build,PM-012,34715500,35038500,2142000,2023-08-05,2026-05-05,2026-06-02,Active,Closeout,94.1
+PRJ-067,Wasatch View Retail Center,Commercial,Austin,TX,Private,Cost Plus,Integrated Project Delivery,PM-003,43895700,44964800,3817000,2024-06-20,2025-09-20,2025-10-30,Complete,Closeout,100.0
+PRJ-068,Canyon Ridge Bridge Rehabilitation,Heavy Civil & Infrastructure,Aurora,CO,Public,Unit Price,Design-Bid-Build,PM-012,54366700,56660800,2718500,2022-09-04,2024-08-04,2024-09-28,Complete,Closeout,100.0
+PRJ-069,Cedar Valley Town Center,Mixed-Use,Phoenix,AZ,Private,Unit Price,Design-Bid-Build,PM-007,161964100,168322000,13234300,2024-08-14,2026-08-14,2026-11-26,Active,Construction,65.4
+PRJ-070,Wasatch View Main Street Development,Mixed-Use,Scottsdale,AZ,Public,Guaranteed Maximum Price,Design-Build,PM-006,245591800,247663800,20109300,2023-07-11,2026-06-11,2026-08-11,Active,Construction,89.8
+PRJ-071,Canyon Ridge Public Safety Center,Institutional,Reno,NV,Public,Guaranteed Maximum Price,Design-Bid-Build,PM-002,129697800,134156200,6602300,2024-05-18,2026-05-18,2026-07-28,Active,Construction,83.1
+PRJ-072,Riverbend Residences,Residential,Lehi,UT,Public,Cost Plus,CMAR,PM-004,49424500,50333400,3642300,2022-08-13,2024-08-13,2024-10-02,Complete,Closeout,100.0
+PRJ-073,Silver Lake Corporate Campus,Commercial,Eugene,OR,Private,Unit Price,Design-Build,PM-011,74572000,75370600,5524500,2023-12-15,2025-05-15,2025-04-15,Complete,Closeout,100.0
+PRJ-074,Evergreen Civic Center,Institutional,Fresno,CA,Public,Cost Plus,Design-Bid-Build,PM-003,65376400,67923400,4502800,2022-03-05,2024-09-05,2024-11-22,Complete,Closeout,100.0
+PRJ-075,Canyon Ridge Transit-Oriented Development,Mixed-Use,Phoenix,AZ,Private,Unknown,Design-Bid-Build,PM-009,104919600,108457000,6894200,2023-12-12,2025-11-12,2026-01-24,Active,Closeout,99.7

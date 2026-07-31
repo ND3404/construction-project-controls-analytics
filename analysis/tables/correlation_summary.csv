@@ -1,0 +1,8 @@
+﻿Relationship,X_Variable,Y_Variable,Pearson_r,R_Squared,Strength,Direction,Interpretation
+Approved CO % vs Cost Growth %,Approved_CO_Pct,Cost_Growth_Pct,0.99977252,0.99954509,Strong,Positive,strong positive association; does not establish causation.
+Approved CO % vs Forecast Overrun %,Approved_CO_Pct,Forecast_Overrun_Pct,0.40046751,0.16037423,Moderate,Positive,moderate positive association; does not establish causation.
+Average RFI Response Days vs Schedule Delay Days,Avg_RFI_Response_Days,Schedule_Delay_Days,0.51694763,0.26723485,Moderate,Positive,moderate positive association; does not establish causation.
+Late RFI Rate vs Schedule Delay Days,Late_RFI_Rate,Schedule_Delay_Days,0.34280744,0.11751694,Modest,Positive,modest positive association; does not establish causation.
+Contingency Burn Ratio vs Forecast Overrun %,Contingency_Burn_Ratio,Forecast_Overrun_Pct,0.90083503,0.81150376,Strong,Positive,strong positive association; does not establish causation.
+RFI Density vs Schedule Delay Days,RFI_per_10M,Schedule_Delay_Days,-0.05782552,0.00334379,Weak,Negative,weak negative association; does not establish causation.
+CO Density vs Forecast Overrun %,CO_per_10M,Forecast_Overrun_Pct,0.15211222,0.02313813,Weak,Positive,weak positive association; does not establish causation.

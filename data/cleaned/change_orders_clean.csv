@@ -1,0 +1,554 @@
+﻿Change_Order_ID,Project_ID,Change_Title,Change_Category,Responsible_Party,Submitted_Date,Approved_Date,Submitted_Value,Approved_Value,Schedule_Impact_Days,Change_Status,Discipline
+CO-00006,PRJ-001,Weather Impact - Electrical package,Weather Impact,External,2024-10-07,2024-11-13,109500,108600,0,Approved,Electrical
+CO-00002,PRJ-001,Utility Conflict - Mechanical package,Utility Conflict,External,2024-12-01,2025-01-27,140900,111000,13,Approved,Mechanical
+CO-00005,PRJ-001,Design Error or Omission - Civil package,Design Error or Omission,Designer,2025-02-24,2025-04-08,226000,178700,7,Approved,Civil
+CO-00004,PRJ-001,Scope Clarification - Mechanical package,Scope Clarification,Owner,2025-06-18,2025-07-02,59800,46100,0,Approved,Mechanical
+CO-00001,PRJ-001,Utility Conflict - Fire Protection package,Utility Conflict,External,2025-08-16,2025-10-01,155400,135100,7,Approved,Fire Protection
+CO-00003,PRJ-001,Contractor-Requested Change - Architectural package,Contractor-Requested Change,Contractor,2025-12-28,2026-02-13,43700,43800,0,Approved,Architectural
+CO-00014,PRJ-002,Owner-Directed Change - Plumbing package,Owner-Directed Change,Owner,2022-07-28,2022-09-12,1416100,1094500,6,Approved,Plumbing
+CO-00012,PRJ-002,Material Substitution - Plumbing package,Material Substitution,Contractor,2022-08-28,,975700,,0,Pending,Plumbing
+CO-00010,PRJ-002,Scope Clarification - Plumbing package,Scope Clarification,Owner,2022-09-13,2022-10-24,2623700,2671700,5,Approved,Plumbing
+CO-00009,PRJ-002,Utility Conflict - Structural package,Utility Conflict,External,2023-02-10,2023-03-27,2649100,2405900,0,Approved,Structural
+CO-00007,PRJ-002,Owner-Directed Change - Plumbing package,Owner-Directed Change,Owner,2024-02-21,,588000,,1,Pending,Plumbing
+CO-00008,PRJ-002,Scope Clarification - Structural package,Scope Clarification,Owner,2024-05-29,,573200,,11,Rejected,Structural
+CO-00013,PRJ-002,Scope Clarification - Structural package,Scope Clarification,Owner,2024-06-11,2024-08-04,1142100,1065300,8,Approved,Structural
+CO-00011,PRJ-002,Design Error or Omission - Fire Protection package,Design Error or Omission,Designer,2024-08-18,,2021400,,11,Withdrawn,Fire Protection
+CO-00015,PRJ-002,Design Error or Omission - Electrical package,Design Error or Omission,Designer,2024-11-08,2024-12-21,1341400,1243500,4,Approved,Electrical
+CO-00020,PRJ-003,Unforeseen Condition - Architectural package,Unforeseen Condition,External,2023-06-13,2023-07-21,209500,153300,19,Approved,Architectural
+CO-00021,PRJ-003,Utility Conflict - Architectural package,Utility Conflict,External,2023-08-06,2023-09-13,115000,84800,23,Approved,Architectural
+CO-00017,PRJ-003,Owner-Directed Change - Mechanical package,Owner-Directed Change,Owner,2023-12-31,2024-01-31,312300,266600,8,Approved,Mechanical
+CO-00022,PRJ-003,Material Substitution - Civil package,Material Substitution,Contractor,2024-03-13,,181900,,0,Rejected,Civil
+CO-00019,PRJ-003,Owner-Directed Change - Plumbing package,Owner-Directed Change,Owner,2024-04-26,2024-06-13,137500,123800,1,Approved,Plumbing
+CO-00016,PRJ-003,Design Error or Omission - Electrical package,Design Error or Omission,Designer,2024-10-25,2024-12-14,75600,76400,1,Approved,Electrical
+CO-00018,PRJ-003,Owner-Directed Change - Architectural package,Owner-Directed Change,Owner,2025-05-05,2025-05-08,407700,399100,8,Approved,Architectural
+CO-00026,PRJ-004,Contractor-Requested Change - Fire Protection package,Contractor-Requested Change,Contractor,2023-01-31,,867400,,9,Withdrawn,Fire Protection
+CO-00023,PRJ-004,Utility Conflict - Architectural package,Utility Conflict,External,2023-11-21,2024-02-01,184000,161900,13,Approved,Architectural
+CO-00027,PRJ-004,Design Error or Omission - Civil package,Design Error or Omission,Designer,2024-02-24,,113700,,14,Rejected,Civil
+CO-00028,PRJ-004,Coordination Issue - Architectural package,Coordination Issue,Contractor,2024-05-20,2024-07-17,157200,114900,9,Approved,Architectural
+CO-00029,PRJ-004,Owner-Directed Change - Plumbing package,Owner-Directed Change,Owner,2024-12-20,2025-02-02,1530800,1217900,1,Approved,Plumbing
+CO-00024,PRJ-004,Unforeseen Condition - Mechanical package,Unforeseen Condition,External,2025-04-14,2025-06-12,1005600,967000,13,Approved,Mechanical
+CO-00025,PRJ-004,Owner-Directed Change - Structural package,Owner-Directed Change,Owner,2025-07-07,2025-08-19,1010400,891800,8,Approved,Structural
+CO-00034,PRJ-005,Material Substitution - Electrical package,Material Substitution,Contractor,2022-11-09,2023-01-03,176600,145200,8,Approved,Electrical
+CO-00033,PRJ-005,Coordination Issue - Structural package,Coordination Issue,Contractor,2023-05-03,,346500,,0,Pending,Structural
+CO-00035,PRJ-005,Contractor-Requested Change - Civil package,Contractor-Requested Change,Contractor,2024-07-27,2024-08-21,181400,162200,4,Approved,Civil
+CO-00032,PRJ-005,Coordination Issue - Structural package,Coordination Issue,Contractor,2024-08-02,,378200,,5,Pending,Structural
+CO-00031,PRJ-005,Unforeseen Condition - Fire Protection package,Unforeseen Condition,External,2024-12-01,2025-01-01,139600,122400,8,Approved,Fire Protection
+CO-00030,PRJ-005,Contractor-Requested Change - Structural package,Contractor-Requested Change,Contractor,2024-12-30,2025-01-02,177900,179900,3,Approved,Structural
+CO-00036,PRJ-005,Contractor-Requested Change - Fire Protection package,Contractor-Requested Change,Contractor,2025-01-13,2025-02-11,353000,261900,9,Approved,Fire Protection
+CO-00037,PRJ-005,Unforeseen Condition - Architectural package,Unforeseen Condition,External,2025-02-26,2025-03-26,234100,178800,16,Approved,Architectural
+CO-00039,PRJ-006,Coordination Issue - Electrical package,Coordination Issue,Contractor,2021-08-26,,45000,,10,Rejected,Electrical
+CO-00042,PRJ-006,Contractor-Requested Change - Civil package,Contractor-Requested Change,Contractor,2021-10-12,2021-10-26,149400,135300,2,Approved,Civil
+CO-00038,PRJ-006,Coordination Issue - Civil package,Coordination Issue,Contractor,2021-11-01,2021-12-30,85200,82800,3,Approved,Civil
+CO-00043,PRJ-006,Unforeseen Condition - Fire Protection package,Unforeseen Condition,External,2023-10-31,2023-12-28,175400,166400,8,Approved,Fire Protection
+CO-00041,PRJ-006,Coordination Issue - Architectural package,Coordination Issue,Contractor,2024-09-26,,292500,,6,Rejected,Architectural
+CO-00040,PRJ-006,Design Error or Omission - Civil package,Design Error or Omission,Designer,2024-12-05,2025-02-03,62700,50300,0,Approved,Civil
+CO-00046,PRJ-007,Design Error or Omission - Fire Protection package,Design Error or Omission,Designer,2023-09-23,2023-12-04,120400,91300,0,Approved,Fire Protection
+CO-00045,PRJ-007,Design Error or Omission - Electrical package,Design Error or Omission,Designer,2023-10-17,2023-10-28,77100,76700,1,Approved,Electrical
+CO-00047,PRJ-007,Utility Conflict - Civil package,Utility Conflict,External,2024-03-07,2024-03-28,74000,75600,8,Approved,Civil
+CO-00044,PRJ-007,Unforeseen Condition - Fire Protection package,Unforeseen Condition,External,2024-11-15,,146400,,20,Rejected,Fire Protection
+CO-00049,PRJ-007,Utility Conflict - Structural package,Utility Conflict,External,2025-06-26,2025-08-15,288700,225000,19,Approved,Structural
+CO-00050,PRJ-007,Weather Impact - Plumbing package,Weather Impact,External,2025-10-19,2025-12-27,30200,22500,14,Approved,Plumbing
+CO-00048,PRJ-007,Code or Regulatory Requirement - Electrical package,Code or Regulatory Requirement,External,2025-12-09,2026-02-23,56100,56000,0,Approved,Electrical
+CO-00054,PRJ-008,Owner-Directed Change - Fire Protection package,Owner-Directed Change,Owner,2023-12-07,2024-02-04,979200,731300,13,Approved,Fire Protection
+CO-00060,PRJ-008,Scope Clarification - Architectural package,Scope Clarification,Owner,2024-04-24,,96800,,0,Rejected,Architectural
+CO-00055,PRJ-008,Contractor-Requested Change - Structural package,Contractor-Requested Change,Contractor,2024-05-05,,453300,,6,Rejected,Structural
+CO-00057,PRJ-008,Weather Impact - Plumbing package,Weather Impact,External,2024-08-07,2024-10-19,90100,66700,5,Approved,Plumbing
+CO-00058,PRJ-008,Design Error or Omission - Electrical package,Design Error or Omission,Designer,2024-08-09,2024-10-11,1094000,843400,8,Approved,Electrical
+CO-00059,PRJ-008,Scope Clarification - Civil package,Scope Clarification,Owner,2024-08-30,2024-09-10,352300,347800,7,Approved,Civil
+CO-00061,PRJ-008,Design Error or Omission - Plumbing package,Design Error or Omission,Designer,2025-01-13,2025-03-22,1530900,1181800,14,Approved,Plumbing
+CO-00056,PRJ-008,Owner-Directed Change - Architectural package,Owner-Directed Change,Owner,2025-04-14,2025-06-14,270300,203500,5,Approved,Architectural
+CO-00052,PRJ-008,Scope Clarification - Electrical package,Scope Clarification,Owner,2025-05-25,2025-07-29,1576400,1555600,0,Approved,Electrical
+CO-00051,PRJ-008,Design Error or Omission - Mechanical package,Design Error or Omission,Designer,2025-08-13,,726800,,10,Withdrawn,Mechanical
+CO-00053,PRJ-008,Design Error or Omission - Civil package,Design Error or Omission,Designer,2025-12-08,2025-12-11,248800,193800,14,Approved,Civil
+CO-00068,PRJ-009,Design Error or Omission - Fire Protection package,Design Error or Omission,Designer,2022-01-15,,24400,,18,Pending,Fire Protection
+CO-00062,PRJ-009,Coordination Issue - Plumbing package,Coordination Issue,Contractor,2022-04-13,2022-06-04,154800,116400,3,Approved,Plumbing
+CO-00066,PRJ-009,Unforeseen Condition - Mechanical package,Unforeseen Condition,External,2022-06-02,2022-07-24,193700,176100,20,Approved,Mechanical
+CO-00064,PRJ-009,Unforeseen Condition - Fire Protection package,Unforeseen Condition,External,2022-08-14,,189300,,20,Pending,Fire Protection
+CO-00069,PRJ-009,Scope Clarification - Mechanical package,Scope Clarification,Owner,2022-09-20,2022-11-28,473400,374600,1,Approved,Mechanical
+CO-00067,PRJ-009,Design Error or Omission - Structural package,Design Error or Omission,Designer,2023-01-14,,26900,,16,Pending,Structural
+CO-00065,PRJ-009,Coordination Issue - Mechanical package,Coordination Issue,Contractor,2023-05-16,2023-07-14,67700,63600,10,Approved,Mechanical
+CO-00063,PRJ-009,Design Error or Omission - Architectural package,Design Error or Omission,Designer,2023-10-30,2024-01-07,177300,146200,16,Approved,Architectural
+CO-00070,PRJ-009,Utility Conflict - Plumbing package,Utility Conflict,External,2023-12-04,,123100,,13,Pending,Plumbing
+CO-00073,PRJ-010,Unforeseen Condition - Architectural package,Unforeseen Condition,External,2022-07-05,2022-08-26,347800,326100,1,Approved,Architectural
+CO-00072,PRJ-010,Owner-Directed Change - Structural package,Owner-Directed Change,Owner,2023-08-02,,235100,,2,Withdrawn,Structural
+CO-00075,PRJ-010,Scope Clarification - Mechanical package,Scope Clarification,Owner,2024-01-24,2024-02-11,100000,100300,6,Approved,Mechanical
+CO-00074,PRJ-010,Coordination Issue - Structural package,Coordination Issue,Contractor,2024-02-17,2024-04-12,401800,353300,9,Approved,Structural
+CO-00071,PRJ-010,Contractor-Requested Change - Electrical package,Contractor-Requested Change,Contractor,2024-08-22,,186900,,4,Pending,Electrical
+CO-00079,PRJ-011,Design Error or Omission - Mechanical package,Design Error or Omission,Designer,2022-12-07,2023-01-01,82400,82700,3,Approved,Mechanical
+CO-00081,PRJ-011,Design Error or Omission - Civil package,Design Error or Omission,Designer,2023-02-15,,131900,,0,Pending,Civil
+CO-00078,PRJ-011,Contractor-Requested Change - Civil package,Contractor-Requested Change,Contractor,2023-10-24,2023-12-18,62000,49400,4,Approved,Civil
+CO-00077,PRJ-011,Weather Impact - Fire Protection package,Weather Impact,External,2024-03-08,2024-05-03,30600,22300,3,Approved,Fire Protection
+CO-00080,PRJ-011,Material Substitution - Electrical package,Material Substitution,Contractor,2024-05-28,2024-07-08,92900,68300,6,Approved,Electrical
+CO-00076,PRJ-011,Owner-Directed Change - Architectural package,Owner-Directed Change,Owner,2024-08-04,2024-09-18,77600,55900,3,Approved,Architectural
+CO-00082,PRJ-012,Unforeseen Condition - Plumbing package,Unforeseen Condition,External,2023-03-28,2023-04-27,202600,190000,8,Approved,Plumbing
+CO-00083,PRJ-012,Design Error or Omission - Structural package,Design Error or Omission,Designer,2023-04-14,2023-04-20,58900,50400,6,Approved,Structural
+CO-00088,PRJ-012,Coordination Issue - Architectural package,Coordination Issue,Contractor,2023-08-04,2023-09-19,59700,58800,0,Approved,Architectural
+CO-00087,PRJ-012,Coordination Issue - Plumbing package,Coordination Issue,Contractor,2023-09-16,2023-10-24,38100,34200,3,Approved,Plumbing
+CO-00086,PRJ-012,Material Substitution - Fire Protection package,Material Substitution,Contractor,2023-11-20,2024-01-09,57400,46100,4,Approved,Fire Protection
+CO-00085,PRJ-012,Scope Clarification - Civil package,Scope Clarification,Owner,2025-05-03,,53900,,7,Rejected,Civil
+CO-00084,PRJ-012,Design Error or Omission - Structural package,Design Error or Omission,Designer,2025-12-27,2026-01-10,16400,12700,8,Approved,Structural
+CO-00090,PRJ-013,Unforeseen Condition - Mechanical package,Unforeseen Condition,External,2023-01-03,2023-02-02,42100,32200,13,Approved,Mechanical
+CO-00092,PRJ-013,Owner-Directed Change - Fire Protection package,Owner-Directed Change,Owner,2023-02-02,2023-03-25,87700,74700,15,Approved,Fire Protection
+CO-00097,PRJ-013,Design Error or Omission - Architectural package,Design Error or Omission,Designer,2023-05-17,,11300,,9,Pending,Architectural
+CO-00094,PRJ-013,Weather Impact - Electrical package,Weather Impact,External,2023-08-05,,26100,,5,Pending,Electrical
+CO-00091,PRJ-013,Owner-Directed Change - Fire Protection package,Owner-Directed Change,Owner,2023-08-22,2023-10-04,62600,46200,5,Approved,Fire Protection
+CO-00089,PRJ-013,Unforeseen Condition - Plumbing package,Unforeseen Condition,External,2023-09-13,2023-11-03,65000,56300,5,Approved,Plumbing
+CO-00096,PRJ-013,Coordination Issue - Structural package,Coordination Issue,Contractor,2023-10-30,2023-12-15,62900,63700,0,Approved,Structural
+CO-00093,PRJ-013,Design Error or Omission - Fire Protection package,Design Error or Omission,Designer,2023-11-13,2023-12-19,11600,9300,5,Approved,Fire Protection
+CO-00095,PRJ-013,Code or Regulatory Requirement - Electrical package,Code or Regulatory Requirement,External,2024-11-02,2024-12-12,62000,63500,16,Approved,Electrical
+CO-00104,PRJ-014,Scope Clarification - Architectural package,Scope Clarification,Owner,2024-03-11,2024-05-09,410200,374500,0,Approved,Architectural
+CO-00098,PRJ-014,Design Error or Omission - Civil package,Design Error or Omission,Designer,2024-05-31,2024-06-27,527600,443300,13,Approved,Civil
+CO-00105,PRJ-014,Coordination Issue - Mechanical package,Coordination Issue,Contractor,2024-08-03,2024-09-11,386600,358900,12,Approved,Mechanical
+CO-00102,PRJ-014,Unforeseen Condition - Structural package,Unforeseen Condition,External,2025-04-11,2025-05-20,346400,349400,16,Approved,Structural
+CO-00103,PRJ-014,Design Error or Omission - Electrical package,Design Error or Omission,Designer,2025-04-27,2025-06-01,316800,285900,13,Approved,Electrical
+CO-00100,PRJ-014,Scope Clarification - Civil package,Scope Clarification,Owner,2025-09-02,2025-10-11,898800,695000,0,Approved,Civil
+CO-00099,PRJ-014,Owner-Directed Change - Plumbing package,Owner-Directed Change,Owner,2025-10-07,2025-12-07,364000,308900,2,Approved,Plumbing
+CO-00101,PRJ-014,Coordination Issue - Architectural package,Coordination Issue,Contractor,2025-11-18,2026-01-08,420200,427000,12,Approved,Architectural
+CO-00108,PRJ-015,Contractor-Requested Change - Architectural package,Contractor-Requested Change,Contractor,2022-08-23,,177700,,0,Rejected,Architectural
+CO-00107,PRJ-015,Design Error or Omission - Civil package,Design Error or Omission,Designer,2023-03-13,,358800,,7,Withdrawn,Civil
+CO-00109,PRJ-015,Owner-Directed Change - Mechanical package,Owner-Directed Change,Owner,2024-05-24,,1116100,,5,Pending,Mechanical
+CO-00111,PRJ-015,Material Substitution - Fire Protection package,Material Substitution,Contractor,2024-06-24,,555400,,2,Rejected,Fire Protection
+CO-00112,PRJ-015,Owner-Directed Change - Fire Protection package,Owner-Directed Change,Owner,2024-07-29,2024-09-03,181100,152100,0,Approved,Fire Protection
+CO-00113,PRJ-015,Owner-Directed Change - Architectural package,Owner-Directed Change,Owner,2024-09-04,,680300,,7,Pending,Architectural
+CO-00106,PRJ-015,Material Substitution - Plumbing package,Material Substitution,Contractor,2024-09-09,,60700,,0,Pending,Plumbing
+CO-00110,PRJ-015,Material Substitution - Architectural package,Material Substitution,Contractor,2024-11-23,,128300,,0,Pending,Architectural
+CO-00117,PRJ-016,Unforeseen Condition - Electrical package,Unforeseen Condition,External,2021-09-11,2021-10-07,409500,349700,19,Approved,Electrical
+CO-00120,PRJ-016,Material Substitution - Plumbing package,Material Substitution,Contractor,2021-10-24,,19800,,1,Pending,Plumbing
+CO-00116,PRJ-016,Owner-Directed Change - Electrical package,Owner-Directed Change,Owner,2023-02-01,,531300,,9,Pending,Electrical
+CO-00119,PRJ-016,Material Substitution - Mechanical package,Material Substitution,Contractor,2023-02-17,,146300,,11,Pending,Mechanical
+CO-00114,PRJ-016,Code or Regulatory Requirement - Architectural package,Code or Regulatory Requirement,External,2023-07-06,,244300,,6,Pending,Architectural
+CO-00118,PRJ-016,Material Substitution - Electrical package,Material Substitution,Contractor,2023-08-24,2023-11-03,82900,60600,9,Approved,Electrical
+CO-00115,PRJ-016,Owner-Directed Change - Fire Protection package,Owner-Directed Change,Owner,2023-09-14,,136200,,10,Rejected,Fire Protection
+CO-00123,PRJ-017,Owner-Directed Change - Electrical package,Owner-Directed Change,Owner,2023-11-12,2023-12-10,179400,165400,16,Approved,Electrical
+CO-00121,PRJ-017,Design Error or Omission - Mechanical package,Design Error or Omission,Designer,2023-11-20,2023-12-27,336600,265800,6,Approved,Mechanical
+CO-00127,PRJ-017,Weather Impact - Plumbing package,Weather Impact,External,2024-05-14,,96100,,15,Pending,Plumbing
+CO-00124,PRJ-017,Design Error or Omission - Electrical package,Design Error or Omission,Designer,2025-05-20,,27300,,17,Pending,Electrical
+CO-00129,PRJ-017,Owner-Directed Change - Civil package,Owner-Directed Change,Owner,2025-06-13,,311200,,12,Rejected,Civil
+CO-00130,PRJ-017,Owner-Directed Change - Electrical package,Owner-Directed Change,Owner,2025-07-05,,138400,,5,Pending,Electrical
+CO-00128,PRJ-017,Design Error or Omission - Structural package,Design Error or Omission,Designer,2025-07-25,2025-09-01,111600,88800,11,Approved,Structural
+CO-00122,PRJ-017,Contractor-Requested Change - Mechanical package,Contractor-Requested Change,Contractor,2025-08-24,,53000,,7,Rejected,Mechanical
+CO-00126,PRJ-017,Coordination Issue - Electrical package,Coordination Issue,Contractor,2025-09-05,,175300,,14,Withdrawn,Electrical
+CO-00125,PRJ-017,Contractor-Requested Change - Plumbing package,Contractor-Requested Change,Contractor,2025-09-08,2025-11-12,196000,172000,8,Approved,Plumbing
+CO-00135,PRJ-018,Design Error or Omission - Fire Protection package,Design Error or Omission,Designer,2024-03-19,2024-04-26,381200,392200,11,Approved,Fire Protection
+CO-00136,PRJ-018,Owner-Directed Change - Electrical package,Owner-Directed Change,Owner,2024-10-29,2024-11-29,903400,925700,10,Approved,Electrical
+CO-00133,PRJ-018,Design Error or Omission - Architectural package,Design Error or Omission,Designer,2024-12-22,2025-01-29,512300,385800,0,Approved,Architectural
+CO-00134,PRJ-018,Code or Regulatory Requirement - Structural package,Code or Regulatory Requirement,External,2025-06-03,2025-08-12,564300,493300,6,Approved,Structural
+CO-00131,PRJ-018,Coordination Issue - Electrical package,Coordination Issue,Contractor,2025-06-29,2025-09-02,445800,328500,5,Approved,Electrical
+CO-00132,PRJ-018,Material Substitution - Electrical package,Material Substitution,Contractor,2025-08-15,2025-09-12,953300,866800,4,Approved,Electrical
+CO-00141,PRJ-019,Owner-Directed Change - Structural package,Owner-Directed Change,Owner,2024-11-20,2024-12-12,372800,313700,6,Approved,Structural
+CO-00144,PRJ-019,Utility Conflict - Structural package,Utility Conflict,External,2024-12-29,,192500,,1,Rejected,Structural
+CO-00138,PRJ-019,Unforeseen Condition - Mechanical package,Unforeseen Condition,External,2025-04-15,2025-05-07,446800,434700,1,Approved,Mechanical
+CO-00137,PRJ-019,Unforeseen Condition - Plumbing package,Unforeseen Condition,External,2025-05-20,2025-07-19,456100,427300,10,Approved,Plumbing
+CO-00140,PRJ-019,Scope Clarification - Mechanical package,Scope Clarification,Owner,2025-05-24,2025-07-19,158300,145400,5,Approved,Mechanical
+CO-00139,PRJ-019,Code or Regulatory Requirement - Electrical package,Code or Regulatory Requirement,External,2025-06-21,,242900,,4,Pending,Electrical
+CO-00143,PRJ-019,Code or Regulatory Requirement - Fire Protection package,Code or Regulatory Requirement,External,2025-06-27,2025-08-05,553700,542800,5,Approved,Fire Protection
+CO-00142,PRJ-019,Design Error or Omission - Civil package,Design Error or Omission,Designer,2025-08-01,2025-10-03,245200,177900,9,Approved,Civil
+CO-00145,PRJ-019,Unforeseen Condition - Structural package,Unforeseen Condition,External,2025-10-06,2025-11-08,552200,567100,9,Approved,Structural
+CO-00152,PRJ-020,Design Error or Omission - Structural package,Design Error or Omission,Designer,2024-05-21,,234100,,2,Pending,Structural
+CO-00146,PRJ-020,Utility Conflict - Architectural package,Utility Conflict,External,2024-07-28,,473900,,15,Withdrawn,Architectural
+CO-00148,PRJ-020,Design Error or Omission - Electrical package,Design Error or Omission,Designer,2024-08-06,,325400,,7,Withdrawn,Electrical
+CO-00153,PRJ-020,Material Substitution - Architectural package,Material Substitution,Contractor,2025-01-20,2025-04-02,76700,71900,4,Approved,Architectural
+CO-00154,PRJ-020,Owner-Directed Change - Mechanical package,Owner-Directed Change,Owner,2025-05-10,2025-07-26,171400,155000,17,Approved,Mechanical
+CO-00151,PRJ-020,Owner-Directed Change - Fire Protection package,Owner-Directed Change,Owner,2025-07-11,,156300,,7,Pending,Fire Protection
+CO-00150,PRJ-020,Scope Clarification - Mechanical package,Scope Clarification,Owner,2025-07-25,,41100,,0,Pending,Mechanical
+CO-00149,PRJ-020,Owner-Directed Change - Fire Protection package,Owner-Directed Change,Owner,2025-09-14,,195300,,5,Rejected,Fire Protection
+CO-00147,PRJ-020,Unforeseen Condition - Architectural package,Unforeseen Condition,External,2025-12-15,,102800,,8,Pending,Architectural
+CO-00156,PRJ-021,Scope Clarification - Structural package,Scope Clarification,Owner,2023-06-23,2023-07-11,141500,112800,1,Approved,Structural
+CO-00159,PRJ-021,Scope Clarification - Civil package,Scope Clarification,Owner,2023-08-17,2023-09-19,736400,557000,0,Approved,Civil
+CO-00155,PRJ-021,Coordination Issue - Architectural package,Coordination Issue,Contractor,2024-03-05,2024-04-10,194200,195600,3,Approved,Architectural
+CO-00157,PRJ-021,Code or Regulatory Requirement - Structural package,Code or Regulatory Requirement,External,2024-05-12,,142100,,0,Pending,Structural
+CO-00158,PRJ-021,Design Error or Omission - Plumbing package,Design Error or Omission,Designer,2024-10-10,,870700,,7,Pending,Plumbing
+CO-00166,PRJ-022,Unforeseen Condition - Architectural package,Unforeseen Condition,External,2024-11-21,,162600,,20,Rejected,Architectural
+CO-00165,PRJ-022,Contractor-Requested Change - Architectural package,Contractor-Requested Change,Contractor,2025-01-14,2025-03-12,117500,96700,6,Approved,Architectural
+CO-00168,PRJ-022,Design Error or Omission - Civil package,Design Error or Omission,Designer,2025-01-25,,100100,,6,Rejected,Civil
+CO-00162,PRJ-022,Unforeseen Condition - Architectural package,Unforeseen Condition,External,2025-02-20,,647600,,22,Rejected,Architectural
+CO-00161,PRJ-022,Material Substitution - Fire Protection package,Material Substitution,Contractor,2025-03-31,2025-05-17,106600,89000,0,Approved,Fire Protection
+CO-00163,PRJ-022,Coordination Issue - Plumbing package,Coordination Issue,Contractor,2025-04-05,,433100,,9,Pending,Plumbing
+CO-00164,PRJ-022,Design Error or Omission - Civil package,Design Error or Omission,Designer,2025-06-07,,377600,,19,Pending,Civil
+CO-00160,PRJ-022,Material Substitution - Architectural package,Material Substitution,Contractor,2025-06-21,2025-07-12,102600,82300,12,Approved,Architectural
+CO-00167,PRJ-022,Coordination Issue - Fire Protection package,Coordination Issue,Contractor,2025-09-13,2025-10-28,140800,120800,9,Approved,Fire Protection
+CO-00170,PRJ-023,Coordination Issue - Plumbing package,Coordination Issue,Contractor,2024-09-12,,211200,,8,Pending,Plumbing
+CO-00176,PRJ-023,Utility Conflict - Fire Protection package,Utility Conflict,External,2024-09-12,,110000,,7,Pending,Fire Protection
+CO-00172,PRJ-023,Coordination Issue - Electrical package,Coordination Issue,Contractor,2024-11-02,2024-11-29,708600,715200,2,Approved,Electrical
+CO-00169,PRJ-023,Owner-Directed Change - Structural package,Owner-Directed Change,Owner,2025-02-17,2025-03-19,565600,502700,6,Approved,Structural
+CO-00175,PRJ-023,Coordination Issue - Architectural package,Coordination Issue,Contractor,2025-04-13,2025-05-10,192000,159200,3,Approved,Architectural
+CO-00173,PRJ-023,Unforeseen Condition - Plumbing package,Unforeseen Condition,External,2025-08-22,2025-10-14,485700,425600,16,Approved,Plumbing
+CO-00174,PRJ-023,Contractor-Requested Change - Structural package,Contractor-Requested Change,Contractor,2025-11-02,2025-11-15,234000,214400,0,Approved,Structural
+CO-00171,PRJ-023,Design Error or Omission - Fire Protection package,Design Error or Omission,Designer,2025-11-10,2025-12-24,704800,713900,14,Approved,Fire Protection
+CO-00178,PRJ-024,Design Error or Omission - Fire Protection package,Design Error or Omission,Designer,2024-10-07,2025-01-04,197400,181500,17,Approved,Fire Protection
+CO-00183,PRJ-024,Coordination Issue - Electrical package,Coordination Issue,Contractor,2024-12-22,,339000,,13,Withdrawn,Electrical
+CO-00185,PRJ-024,Owner-Directed Change - Electrical package,Owner-Directed Change,Owner,2025-01-18,2025-03-14,1150500,1110400,8,Approved,Electrical
+CO-00179,PRJ-024,Design Error or Omission - Civil package,Design Error or Omission,Designer,2025-02-04,2025-04-03,402000,316200,13,Approved,Civil
+CO-00177,PRJ-024,Design Error or Omission - Fire Protection package,Design Error or Omission,Designer,2025-02-06,,478700,,10,Pending,Fire Protection
+CO-00180,PRJ-024,Owner-Directed Change - Architectural package,Owner-Directed Change,Owner,2025-03-28,2025-05-19,3809600,3053100,14,Approved,Architectural
+CO-00184,PRJ-024,Design Error or Omission - Fire Protection package,Design Error or Omission,Designer,2025-04-10,2025-06-02,745600,572900,1,Approved,Fire Protection
+CO-00181,PRJ-024,Owner-Directed Change - Structural package,Owner-Directed Change,Owner,2025-04-23,2025-05-12,1219600,1009200,12,Approved,Structural
+CO-00182,PRJ-024,Design Error or Omission - Mechanical package,Design Error or Omission,Designer,2025-05-28,2025-07-09,685200,626900,11,Approved,Mechanical
+CO-00189,PRJ-025,Scope Clarification - Mechanical package,Scope Clarification,Owner,2025-02-24,2025-04-12,220400,219500,0,Approved,Mechanical
+CO-00190,PRJ-025,Owner-Directed Change - Plumbing package,Owner-Directed Change,Owner,2025-03-05,,138200,,7,Pending,Plumbing
+CO-00188,PRJ-025,Design Error or Omission - Structural package,Design Error or Omission,Designer,2025-03-07,2025-04-01,85500,64200,0,Approved,Structural
+CO-00187,PRJ-025,Owner-Directed Change - Mechanical package,Owner-Directed Change,Owner,2025-08-16,2025-08-25,75600,69600,3,Approved,Mechanical
+CO-00186,PRJ-025,Code or Regulatory Requirement - Civil package,Code or Regulatory Requirement,External,2025-09-20,,173000,,9,Pending,Civil
+CO-00191,PRJ-025,Code or Regulatory Requirement - Structural package,Code or Regulatory Requirement,External,2025-10-03,,71600,,9,Pending,Structural
+CO-00192,PRJ-025,Material Substitution - Plumbing package,Material Substitution,Contractor,2025-12-13,2026-01-22,39900,36100,7,Approved,Plumbing
+CO-00196,PRJ-026,Design Error or Omission - Mechanical package,Design Error or Omission,Designer,2024-08-12,,184200,,12,Pending,Mechanical
+CO-00197,PRJ-026,Unforeseen Condition - Electrical package,Unforeseen Condition,External,2024-11-17,2025-01-08,78700,62900,15,Approved,Electrical
+CO-00195,PRJ-026,Scope Clarification - Electrical package,Scope Clarification,Owner,2024-11-21,,123500,,4,Rejected,Electrical
+CO-00194,PRJ-026,Utility Conflict - Architectural package,Utility Conflict,External,2025-01-18,2025-02-13,115900,105700,4,Approved,Architectural
+CO-00193,PRJ-026,Unforeseen Condition - Fire Protection package,Unforeseen Condition,External,2025-05-06,2025-07-02,439200,405400,22,Approved,Fire Protection
+CO-00198,PRJ-026,Coordination Issue - Plumbing package,Coordination Issue,Contractor,2025-11-12,,293600,,2,Withdrawn,Plumbing
+CO-00203,PRJ-027,Owner-Directed Change - Electrical package,Owner-Directed Change,Owner,2024-12-12,2025-02-02,112800,89600,7,Approved,Electrical
+CO-00200,PRJ-027,Material Substitution - Fire Protection package,Material Substitution,Contractor,2025-01-02,2025-02-21,82600,62300,7,Approved,Fire Protection
+CO-00204,PRJ-027,Unforeseen Condition - Electrical package,Unforeseen Condition,External,2025-01-07,2025-03-03,76400,64800,27,Approved,Electrical
+CO-00202,PRJ-027,Coordination Issue - Mechanical package,Coordination Issue,Contractor,2025-02-03,,52600,,11,Pending,Mechanical
+CO-00201,PRJ-027,Material Substitution - Civil package,Material Substitution,Contractor,2025-06-11,2025-08-09,27300,25400,4,Approved,Civil
+CO-00199,PRJ-027,Contractor-Requested Change - Mechanical package,Contractor-Requested Change,Contractor,2025-10-06,,80900,,0,Pending,Mechanical
+CO-00210,PRJ-028,Weather Impact - Electrical package,Weather Impact,External,2021-10-19,2021-12-01,34300,28300,0,Approved,Electrical
+CO-00206,PRJ-028,Code or Regulatory Requirement - Fire Protection package,Code or Regulatory Requirement,External,2022-02-01,,21100,,4,Pending,Fire Protection
+CO-00205,PRJ-028,Unforeseen Condition - Plumbing package,Unforeseen Condition,External,2022-03-17,2022-05-07,48400,49400,12,Approved,Plumbing
+CO-00209,PRJ-028,Weather Impact - Architectural package,Weather Impact,External,2022-08-16,,9300,,3,Pending,Architectural
+CO-00211,PRJ-028,Unforeseen Condition - Structural package,Unforeseen Condition,External,2022-10-23,2022-11-23,49500,46700,11,Approved,Structural
+CO-00208,PRJ-028,Owner-Directed Change - Fire Protection package,Owner-Directed Change,Owner,2022-12-31,2023-01-31,108500,81500,14,Approved,Fire Protection
+CO-00207,PRJ-028,Design Error or Omission - Plumbing package,Design Error or Omission,Designer,2023-01-01,2023-01-10,17700,14700,1,Approved,Plumbing
+CO-00212,PRJ-028,Scope Clarification - Plumbing package,Scope Clarification,Owner,2024-06-20,2024-07-23,21200,20800,2,Approved,Plumbing
+CO-00213,PRJ-029,Scope Clarification - Fire Protection package,Scope Clarification,Owner,2024-10-07,2024-11-16,1113300,1141500,6,Approved,Fire Protection
+CO-00216,PRJ-029,Owner-Directed Change - Civil package,Owner-Directed Change,Owner,2024-10-15,2024-11-26,988500,858000,5,Approved,Civil
+CO-00217,PRJ-029,Coordination Issue - Structural package,Coordination Issue,Contractor,2025-04-03,,523200,,11,Pending,Structural
+CO-00215,PRJ-029,Owner-Directed Change - Electrical package,Owner-Directed Change,Owner,2025-04-16,2025-06-17,163700,153100,9,Approved,Electrical
+CO-00214,PRJ-029,Utility Conflict - Civil package,Utility Conflict,External,2025-10-23,2025-11-02,747300,601500,3,Approved,Civil
+CO-00222,PRJ-030,Unforeseen Condition - Fire Protection package,Unforeseen Condition,External,2023-05-12,2023-07-15,795900,734700,19,Approved,Fire Protection
+CO-00224,PRJ-030,Utility Conflict - Fire Protection package,Utility Conflict,External,2023-11-01,2023-12-12,1341100,1346400,13,Approved,Fire Protection
+CO-00226,PRJ-030,Coordination Issue - Plumbing package,Coordination Issue,Contractor,2024-04-26,2024-07-03,789300,675500,15,Approved,Plumbing
+CO-00221,PRJ-030,Owner-Directed Change - Mechanical package,Owner-Directed Change,Owner,2024-05-29,,2609900,,2,Pending,Mechanical
+CO-00220,PRJ-030,Utility Conflict - Civil package,Utility Conflict,External,2024-06-12,2024-07-26,616800,534800,18,Approved,Civil
+CO-00218,PRJ-030,Owner-Directed Change - Structural package,Owner-Directed Change,Owner,2024-06-22,,2860000,,8,Rejected,Structural
+CO-00219,PRJ-030,Weather Impact - Electrical package,Weather Impact,External,2025-05-18,2025-06-20,395500,304000,8,Approved,Electrical
+CO-00225,PRJ-030,Unforeseen Condition - Electrical package,Unforeseen Condition,External,2025-08-02,,1885700,,11,Pending,Electrical
+CO-00227,PRJ-030,Code or Regulatory Requirement - Mechanical package,Code or Regulatory Requirement,External,2025-12-01,2025-12-30,1861300,1686000,3,Approved,Mechanical
+CO-00223,PRJ-030,Design Error or Omission - Civil package,Design Error or Omission,Designer,2025-12-17,2026-01-06,1091100,861300,13,Approved,Civil
+CO-00228,PRJ-030,Unforeseen Condition - Architectural package,Unforeseen Condition,External,2025-12-27,,1783800,,20,Withdrawn,Architectural
+CO-00233,PRJ-031,Owner-Directed Change - Structural package,Owner-Directed Change,Owner,2022-01-07,,205500,,7,Pending,Structural
+CO-00231,PRJ-031,Utility Conflict - Architectural package,Utility Conflict,External,2022-06-27,,36800,,11,Pending,Architectural
+CO-00232,PRJ-031,Utility Conflict - Electrical package,Utility Conflict,External,2024-03-31,2024-06-09,10500,8400,12,Approved,Electrical
+CO-00230,PRJ-031,Owner-Directed Change - Architectural package,Owner-Directed Change,Owner,2024-11-14,2025-01-15,75900,68500,18,Approved,Architectural
+CO-00229,PRJ-031,Coordination Issue - Mechanical package,Coordination Issue,Contractor,2024-11-17,2024-12-30,41200,29800,7,Approved,Mechanical
+CO-00237,PRJ-032,Design Error or Omission - Structural package,Design Error or Omission,Designer,2023-05-29,2023-07-17,3242500,2701300,17,Approved,Structural
+CO-00240,PRJ-032,Material Substitution - Architectural package,Material Substitution,Contractor,2023-07-15,2023-08-16,250500,223700,0,Approved,Architectural
+CO-00241,PRJ-032,Coordination Issue - Civil package,Coordination Issue,Contractor,2023-08-01,2023-09-06,1136700,1029000,4,Approved,Civil
+CO-00235,PRJ-032,Design Error or Omission - Architectural package,Design Error or Omission,Designer,2023-11-22,2023-12-09,384200,348800,7,Approved,Architectural
+CO-00243,PRJ-032,Scope Clarification - Plumbing package,Scope Clarification,Owner,2024-06-22,,276100,,10,Withdrawn,Plumbing
+CO-00242,PRJ-032,Owner-Directed Change - Civil package,Owner-Directed Change,Owner,2024-08-06,2024-08-23,214600,206100,10,Approved,Civil
+CO-00234,PRJ-032,Design Error or Omission - Mechanical package,Design Error or Omission,Designer,2024-09-02,2024-10-22,432400,322100,9,Approved,Mechanical
+CO-00238,PRJ-032,Owner-Directed Change - Structural package,Owner-Directed Change,Owner,2025-04-13,2025-07-08,5826500,5142900,0,Approved,Structural
+CO-00239,PRJ-032,Design Error or Omission - Architectural package,Design Error or Omission,Designer,2025-07-22,,248300,,5,Pending,Architectural
+CO-00236,PRJ-032,Contractor-Requested Change - Plumbing package,Contractor-Requested Change,Contractor,2025-10-04,2025-12-04,80200,62000,4,Approved,Plumbing
+CO-00244,PRJ-033,Code or Regulatory Requirement - Structural package,Code or Regulatory Requirement,External,2023-07-07,,2353300,,7,Rejected,Structural
+CO-00245,PRJ-033,Weather Impact - Architectural package,Weather Impact,External,2023-12-04,,481800,,4,Rejected,Architectural
+CO-00249,PRJ-033,Owner-Directed Change - Architectural package,Owner-Directed Change,Owner,2024-03-09,2024-04-19,6980000,5561300,7,Approved,Architectural
+CO-00247,PRJ-033,Design Error or Omission - Plumbing package,Design Error or Omission,Designer,2024-03-29,2024-04-24,428200,330400,4,Approved,Plumbing
+CO-00246,PRJ-033,Design Error or Omission - Civil package,Design Error or Omission,Designer,2024-06-22,2024-08-19,1572500,1332300,10,Approved,Civil
+CO-00250,PRJ-033,Material Substitution - Plumbing package,Material Substitution,Contractor,2025-02-25,,644200,,2,Pending,Plumbing
+CO-00248,PRJ-033,Contractor-Requested Change - Architectural package,Contractor-Requested Change,Contractor,2025-12-21,2026-01-18,1124600,1144800,0,Approved,Architectural
+CO-00254,PRJ-034,Design Error or Omission - Electrical package,Design Error or Omission,Designer,2022-01-18,2022-03-16,1119300,929800,14,Approved,Electrical
+CO-00257,PRJ-034,Unforeseen Condition - Mechanical package,Unforeseen Condition,External,2022-03-17,2022-05-11,646300,663700,8,Approved,Mechanical
+CO-00251,PRJ-034,Code or Regulatory Requirement - Architectural package,Code or Regulatory Requirement,External,2022-03-24,2022-05-21,384800,322900,4,Approved,Architectural
+CO-00255,PRJ-034,Material Substitution - Plumbing package,Material Substitution,Contractor,2022-06-11,,114900,,0,Pending,Plumbing
+CO-00252,PRJ-034,Owner-Directed Change - Fire Protection package,Owner-Directed Change,Owner,2022-12-11,2023-01-29,125000,109900,12,Approved,Fire Protection
+CO-00258,PRJ-034,Scope Clarification - Mechanical package,Scope Clarification,Owner,2023-03-28,2023-04-27,170900,168900,13,Approved,Mechanical
+CO-00256,PRJ-034,Scope Clarification - Plumbing package,Scope Clarification,Owner,2023-10-28,,72600,,6,Rejected,Plumbing
+CO-00259,PRJ-034,Scope Clarification - Electrical package,Scope Clarification,Owner,2024-02-26,2024-04-26,232700,229000,11,Approved,Electrical
+CO-00253,PRJ-034,Coordination Issue - Mechanical package,Coordination Issue,Contractor,2024-02-29,,273100,,14,Pending,Mechanical
+CO-00260,PRJ-035,Scope Clarification - Plumbing package,Scope Clarification,Owner,2023-01-14,2023-02-27,192400,164400,3,Approved,Plumbing
+CO-00263,PRJ-035,Design Error or Omission - Architectural package,Design Error or Omission,Designer,2023-10-31,2023-12-20,460500,369800,10,Approved,Architectural
+CO-00261,PRJ-035,Owner-Directed Change - Electrical package,Owner-Directed Change,Owner,2024-02-01,2024-03-04,975700,953700,2,Approved,Electrical
+CO-00262,PRJ-035,Scope Clarification - Electrical package,Scope Clarification,Owner,2025-02-26,2025-03-26,835500,849500,2,Approved,Electrical
+CO-00269,PRJ-036,Design Error or Omission - Civil package,Design Error or Omission,Designer,2024-08-16,2024-09-05,25200,24400,8,Approved,Civil
+CO-00267,PRJ-036,Code or Regulatory Requirement - Structural package,Code or Regulatory Requirement,External,2024-11-05,2024-12-25,58000,47000,10,Approved,Structural
+CO-00268,PRJ-036,Owner-Directed Change - Fire Protection package,Owner-Directed Change,Owner,2025-03-12,2025-04-13,71100,60800,5,Approved,Fire Protection
+CO-00265,PRJ-036,Coordination Issue - Fire Protection package,Coordination Issue,Contractor,2025-04-13,2025-06-19,10200,7700,12,Approved,Fire Protection
+CO-00266,PRJ-036,Code or Regulatory Requirement - Plumbing package,Code or Regulatory Requirement,External,2025-06-18,2025-07-26,30600,22100,15,Approved,Plumbing
+CO-00264,PRJ-036,Owner-Directed Change - Plumbing package,Owner-Directed Change,Owner,2025-09-15,2025-10-01,236700,204500,5,Approved,Plumbing
+CO-00271,PRJ-037,Contractor-Requested Change - Electrical package,Contractor-Requested Change,Contractor,2022-11-15,,197600,,0,Pending,Electrical
+CO-00275,PRJ-037,Owner-Directed Change - Plumbing package,Owner-Directed Change,Owner,2023-08-05,2023-09-19,479100,460000,4,Approved,Plumbing
+CO-00274,PRJ-037,Owner-Directed Change - Fire Protection package,Owner-Directed Change,Owner,2023-10-06,,588900,,0,Pending,Fire Protection
+CO-00272,PRJ-037,Utility Conflict - Fire Protection package,Utility Conflict,External,2023-11-09,,827400,,13,Rejected,Fire Protection
+CO-00270,PRJ-037,Material Substitution - Structural package,Material Substitution,Contractor,2024-08-24,,56700,,0,Pending,Structural
+CO-00273,PRJ-037,Scope Clarification - Architectural package,Scope Clarification,Owner,2025-03-25,2025-03-28,262500,192200,6,Approved,Architectural
+CO-00276,PRJ-038,Contractor-Requested Change - Architectural package,Contractor-Requested Change,Contractor,2022-11-25,2023-01-15,78800,70400,1,Approved,Architectural
+CO-00283,PRJ-038,Design Error or Omission - Architectural package,Design Error or Omission,Designer,2022-12-09,,45500,,4,Pending,Architectural
+CO-00280,PRJ-038,Design Error or Omission - Civil package,Design Error or Omission,Designer,2023-05-28,,59500,,0,Pending,Civil
+CO-00282,PRJ-038,Design Error or Omission - Electrical package,Design Error or Omission,Designer,2023-06-24,2023-08-03,73700,65200,6,Approved,Electrical
+CO-00281,PRJ-038,Coordination Issue - Fire Protection package,Coordination Issue,Contractor,2023-08-20,,68000,,5,Withdrawn,Fire Protection
+CO-00277,PRJ-038,Design Error or Omission - Electrical package,Design Error or Omission,Designer,2024-01-15,2024-01-18,42500,38400,14,Approved,Electrical
+CO-00278,PRJ-038,Design Error or Omission - Electrical package,Design Error or Omission,Designer,2024-02-24,,50600,,11,Pending,Electrical
+CO-00284,PRJ-038,Scope Clarification - Fire Protection package,Scope Clarification,Owner,2024-03-29,,22600,,4,Rejected,Fire Protection
+CO-00279,PRJ-038,Owner-Directed Change - Fire Protection package,Owner-Directed Change,Owner,2024-09-17,2024-11-06,144500,144900,0,Approved,Fire Protection
+CO-00285,PRJ-039,Utility Conflict - Electrical package,Utility Conflict,External,2023-01-05,2023-01-14,64000,60400,11,Approved,Electrical
+CO-00290,PRJ-039,Owner-Directed Change - Civil package,Owner-Directed Change,Owner,2023-01-21,2023-02-12,68200,60400,0,Approved,Civil
+CO-00289,PRJ-039,Scope Clarification - Structural package,Scope Clarification,Owner,2023-02-14,2023-03-11,157700,148400,5,Approved,Structural
+CO-00287,PRJ-039,Owner-Directed Change - Electrical package,Owner-Directed Change,Owner,2023-08-09,2023-10-23,184200,164700,2,Approved,Electrical
+CO-00286,PRJ-039,Contractor-Requested Change - Structural package,Contractor-Requested Change,Contractor,2024-02-15,,59200,,11,Pending,Structural
+CO-00288,PRJ-039,Coordination Issue - Electrical package,Coordination Issue,Contractor,2024-09-21,,174000,,0,Pending,Electrical
+CO-00292,PRJ-040,Design Error or Omission - Architectural package,Design Error or Omission,Designer,2022-11-20,2022-12-26,620500,492100,10,Approved,Architectural
+CO-00291,PRJ-040,Unforeseen Condition - Plumbing package,Unforeseen Condition,External,2024-07-04,2024-08-09,621300,470200,20,Approved,Plumbing
+CO-00294,PRJ-040,Unforeseen Condition - Civil package,Unforeseen Condition,External,2025-01-06,2025-02-20,570000,483200,20,Approved,Civil
+CO-00295,PRJ-040,Scope Clarification - Fire Protection package,Scope Clarification,Owner,2025-03-30,,104400,,0,Rejected,Fire Protection
+CO-00293,PRJ-040,Owner-Directed Change - Structural package,Owner-Directed Change,Owner,2025-07-07,2025-08-07,268400,266600,4,Approved,Structural
+CO-00296,PRJ-040,Coordination Issue - Plumbing package,Coordination Issue,Contractor,2025-08-20,,272400,,4,Rejected,Plumbing
+CO-00298,PRJ-041,Coordination Issue - Fire Protection package,Coordination Issue,Contractor,2023-11-10,,191900,,10,Rejected,Fire Protection
+CO-00303,PRJ-041,Scope Clarification - Mechanical package,Scope Clarification,Owner,2023-11-24,2024-01-08,170100,123800,6,Approved,Mechanical
+CO-00302,PRJ-041,Coordination Issue - Mechanical package,Coordination Issue,Contractor,2023-11-27,2023-12-16,138300,133700,9,Approved,Mechanical
+CO-00297,PRJ-041,Unforeseen Condition - Structural package,Unforeseen Condition,External,2024-01-13,,155400,,21,Pending,Structural
+CO-00300,PRJ-041,Unforeseen Condition - Mechanical package,Unforeseen Condition,External,2024-02-01,2024-03-30,447200,425600,5,Approved,Mechanical
+CO-00301,PRJ-041,Material Substitution - Mechanical package,Material Substitution,Contractor,2024-04-25,,194400,,5,Pending,Mechanical
+CO-00299,PRJ-041,Weather Impact - Architectural package,Weather Impact,External,2024-04-30,,133500,,2,Pending,Architectural
+CO-00304,PRJ-041,Scope Clarification - Civil package,Scope Clarification,Owner,2025-02-22,,40100,,0,Pending,Civil
+CO-00308,PRJ-042,Material Substitution - Civil package,Material Substitution,Contractor,2021-12-13,2022-01-09,9400,9300,10,Approved,Civil
+CO-00309,PRJ-042,Design Error or Omission - Mechanical package,Design Error or Omission,Designer,2022-12-06,2023-03-01,56600,52900,11,Approved,Mechanical
+CO-00307,PRJ-042,Utility Conflict - Mechanical package,Utility Conflict,External,2023-03-13,2023-03-30,7800,7300,21,Approved,Mechanical
+CO-00306,PRJ-042,Owner-Directed Change - Electrical package,Owner-Directed Change,Owner,2023-06-08,2023-07-23,20600,16600,5,Approved,Electrical
+CO-00310,PRJ-042,Unforeseen Condition - Architectural package,Unforeseen Condition,External,2023-10-29,2023-11-23,15700,15100,10,Approved,Architectural
+CO-00305,PRJ-042,Owner-Directed Change - Civil package,Owner-Directed Change,Owner,2024-05-22,,88400,,1,Withdrawn,Civil
+CO-00312,PRJ-043,Owner-Directed Change - Civil package,Owner-Directed Change,Owner,2022-12-24,2023-02-05,686400,681800,0,Approved,Civil
+CO-00315,PRJ-043,Coordination Issue - Civil package,Coordination Issue,Contractor,2024-02-20,2024-04-03,294400,225800,11,Approved,Civil
+CO-00320,PRJ-043,Scope Clarification - Electrical package,Scope Clarification,Owner,2024-07-14,2024-08-01,711000,640800,0,Approved,Electrical
+CO-00314,PRJ-043,Coordination Issue - Plumbing package,Coordination Issue,Contractor,2024-08-12,,1632400,,14,Withdrawn,Plumbing
+CO-00316,PRJ-043,Coordination Issue - Plumbing package,Coordination Issue,Contractor,2024-09-18,2024-10-07,126600,114100,10,Approved,Plumbing
+CO-00313,PRJ-043,Unforeseen Condition - Civil package,Unforeseen Condition,External,2024-10-22,2024-12-16,4247600,4243400,8,Approved,Civil
+CO-00317,PRJ-043,Scope Clarification - Fire Protection package,Scope Clarification,Owner,2024-10-29,2025-01-04,334400,310700,10,Approved,Fire Protection
+CO-00311,PRJ-043,Owner-Directed Change - Structural package,Owner-Directed Change,Owner,2025-03-08,2025-04-26,2031700,1514000,3,Approved,Structural
+CO-00318,PRJ-043,Material Substitution - Structural package,Material Substitution,Contractor,2025-07-07,2025-08-26,647600,535800,1,Approved,Structural
+CO-00319,PRJ-043,Owner-Directed Change - Plumbing package,Owner-Directed Change,Owner,2025-10-11,2025-11-27,1324700,1212500,0,Approved,Plumbing
+CO-00322,PRJ-044,Design Error or Omission - Plumbing package,Design Error or Omission,Designer,2024-11-13,,857100,,7,Pending,Plumbing
+CO-00325,PRJ-044,Coordination Issue - Structural package,Coordination Issue,Contractor,2025-05-21,2025-07-01,155800,139100,5,Approved,Structural
+CO-00323,PRJ-044,Utility Conflict - Mechanical package,Utility Conflict,External,2025-07-30,2025-09-05,413400,324600,12,Approved,Mechanical
+CO-00321,PRJ-044,Code or Regulatory Requirement - Plumbing package,Code or Regulatory Requirement,External,2025-10-10,,158000,,11,Withdrawn,Plumbing
+CO-00324,PRJ-044,Design Error or Omission - Structural package,Design Error or Omission,Designer,2025-12-28,2026-02-15,721700,654200,16,Approved,Structural
+CO-00331,PRJ-045,Utility Conflict - Structural package,Utility Conflict,External,2024-09-06,2024-09-27,556300,555700,13,Approved,Structural
+CO-00328,PRJ-045,Scope Clarification - Civil package,Scope Clarification,Owner,2025-01-06,,218200,,8,Rejected,Civil
+CO-00329,PRJ-045,Design Error or Omission - Structural package,Design Error or Omission,Designer,2025-01-19,2025-04-30,95300,80300,11,Approved,Structural
+CO-00330,PRJ-045,Owner-Directed Change - Structural package,Owner-Directed Change,Owner,2025-05-06,2025-06-13,363300,292600,9,Approved,Structural
+CO-00327,PRJ-045,Contractor-Requested Change - Civil package,Contractor-Requested Change,Contractor,2025-10-08,,295400,,0,Rejected,Civil
+CO-00326,PRJ-045,Utility Conflict - Fire Protection package,Utility Conflict,External,2025-10-22,2025-12-02,307300,308400,15,Approved,Fire Protection
+CO-00336,PRJ-046,Owner-Directed Change - Mechanical package,Owner-Directed Change,Owner,2021-09-03,2021-11-10,293200,248400,8,Approved,Mechanical
+CO-00334,PRJ-046,Unforeseen Condition - Electrical package,Unforeseen Condition,External,2022-03-12,2022-04-10,194900,185500,21,Approved,Electrical
+CO-00338,PRJ-046,Design Error or Omission - Structural package,Design Error or Omission,Designer,2022-04-28,,48500,,12,Pending,Structural
+CO-00337,PRJ-046,Design Error or Omission - Fire Protection package,Design Error or Omission,Designer,2022-05-01,2022-07-26,288400,225400,8,Approved,Fire Protection
+CO-00333,PRJ-046,Owner-Directed Change - Electrical package,Owner-Directed Change,Owner,2022-07-12,2022-09-24,394200,303400,13,Approved,Electrical
+CO-00340,PRJ-046,Coordination Issue - Architectural package,Coordination Issue,Contractor,2022-12-07,2023-02-13,379700,335900,9,Approved,Architectural
+CO-00335,PRJ-046,Utility Conflict - Fire Protection package,Utility Conflict,External,2023-02-25,2023-04-13,674200,539800,23,Approved,Fire Protection
+CO-00339,PRJ-046,Unforeseen Condition - Mechanical package,Unforeseen Condition,External,2023-03-20,2023-05-24,207300,204700,12,Approved,Mechanical
+CO-00332,PRJ-046,Owner-Directed Change - Electrical package,Owner-Directed Change,Owner,2023-04-27,2023-06-22,294900,243900,10,Approved,Electrical
+CO-00341,PRJ-047,Coordination Issue - Mechanical package,Coordination Issue,Contractor,2022-11-30,,80400,,5,Pending,Mechanical
+CO-00345,PRJ-047,Contractor-Requested Change - Plumbing package,Contractor-Requested Change,Contractor,2023-03-20,,301200,,3,Rejected,Plumbing
+CO-00342,PRJ-047,Design Error or Omission - Electrical package,Design Error or Omission,Designer,2023-05-11,,227200,,13,Pending,Electrical
+CO-00346,PRJ-047,Design Error or Omission - Fire Protection package,Design Error or Omission,Designer,2024-03-30,,39600,,8,Pending,Fire Protection
+CO-00344,PRJ-047,Material Substitution - Architectural package,Material Substitution,Contractor,2024-04-07,,293800,,0,Pending,Architectural
+CO-00343,PRJ-047,Weather Impact - Electrical package,Weather Impact,External,2024-05-15,,165100,,10,Rejected,Electrical
+CO-00351,PRJ-048,Coordination Issue - Structural package,Coordination Issue,Contractor,2022-10-20,2022-11-28,71300,68300,0,Approved,Structural
+CO-00350,PRJ-048,Design Error or Omission - Plumbing package,Design Error or Omission,Designer,2022-11-04,2023-01-09,129100,110200,1,Approved,Plumbing
+CO-00347,PRJ-048,Design Error or Omission - Plumbing package,Design Error or Omission,Designer,2023-06-01,2023-06-09,197400,187400,6,Approved,Plumbing
+CO-00349,PRJ-048,Utility Conflict - Electrical package,Utility Conflict,External,2024-03-05,2024-04-18,447800,391700,1,Approved,Electrical
+CO-00348,PRJ-048,Unforeseen Condition - Fire Protection package,Unforeseen Condition,External,2024-03-18,2024-04-26,116800,106000,10,Approved,Fire Protection
+CO-00354,PRJ-049,Design Error or Omission - Mechanical package,Design Error or Omission,Designer,2023-10-27,2023-12-03,81000,65200,12,Approved,Mechanical
+CO-00353,PRJ-049,Design Error or Omission - Mechanical package,Design Error or Omission,Designer,2024-08-24,2024-10-13,13000,10300,5,Approved,Mechanical
+CO-00355,PRJ-049,Material Substitution - Mechanical package,Material Substitution,Contractor,2024-11-11,2024-12-08,18700,18300,15,Approved,Mechanical
+CO-00352,PRJ-049,Owner-Directed Change - Electrical package,Owner-Directed Change,Owner,2025-03-29,2025-05-14,33100,27600,4,Approved,Electrical
+CO-00358,PRJ-050,Owner-Directed Change - Fire Protection package,Owner-Directed Change,Owner,2024-03-06,2024-04-01,510700,417900,5,Approved,Fire Protection
+CO-00357,PRJ-050,Design Error or Omission - Civil package,Design Error or Omission,Designer,2024-05-21,2024-06-24,243300,187200,13,Approved,Civil
+CO-00359,PRJ-050,Contractor-Requested Change - Architectural package,Contractor-Requested Change,Contractor,2024-08-03,,119800,,0,Pending,Architectural
+CO-00360,PRJ-050,Contractor-Requested Change - Electrical package,Contractor-Requested Change,Contractor,2024-08-10,,57800,,4,Rejected,Electrical
+CO-00356,PRJ-050,Utility Conflict - Plumbing package,Utility Conflict,External,2025-02-23,2025-03-05,122300,108800,8,Approved,Plumbing
+CO-00361,PRJ-050,Material Substitution - Mechanical package,Material Substitution,Contractor,2025-05-11,2025-06-04,354200,294900,14,Approved,Mechanical
+CO-00362,PRJ-051,Scope Clarification - Electrical package,Scope Clarification,Owner,2021-10-04,,216800,,9,Rejected,Electrical
+CO-00363,PRJ-051,Design Error or Omission - Plumbing package,Design Error or Omission,Designer,2022-06-09,2022-07-14,266700,203600,9,Approved,Plumbing
+CO-00364,PRJ-051,Design Error or Omission - Civil package,Design Error or Omission,Designer,2023-10-30,,562400,,5,Pending,Civil
+CO-00365,PRJ-051,Design Error or Omission - Architectural package,Design Error or Omission,Designer,2023-10-31,2023-11-16,676300,579800,0,Approved,Architectural
+CO-00371,PRJ-052,Unforeseen Condition - Civil package,Unforeseen Condition,External,2023-09-17,2023-11-01,45500,44400,7,Approved,Civil
+CO-00366,PRJ-052,Code or Regulatory Requirement - Structural package,Code or Regulatory Requirement,External,2024-04-09,2024-05-05,30500,23800,11,Approved,Structural
+CO-00370,PRJ-052,Owner-Directed Change - Structural package,Owner-Directed Change,Owner,2024-06-09,,94300,,1,Pending,Structural
+CO-00368,PRJ-052,Unforeseen Condition - Structural package,Unforeseen Condition,External,2024-07-08,,87700,,13,Rejected,Structural
+CO-00369,PRJ-052,Coordination Issue - Civil package,Coordination Issue,Contractor,2024-08-29,,75100,,1,Rejected,Civil
+CO-00367,PRJ-052,Unforeseen Condition - Architectural package,Unforeseen Condition,External,2025-04-30,2025-07-06,49900,40800,11,Approved,Architectural
+CO-00376,PRJ-053,Unforeseen Condition - Mechanical package,Unforeseen Condition,External,2024-03-30,2024-06-11,624300,608100,16,Approved,Mechanical
+CO-00375,PRJ-053,Owner-Directed Change - Civil package,Owner-Directed Change,Owner,2024-04-06,,555200,,8,Pending,Civil
+CO-00380,PRJ-053,Material Substitution - Architectural package,Material Substitution,Contractor,2024-05-08,2024-06-14,445800,390400,0,Approved,Architectural
+CO-00372,PRJ-053,Owner-Directed Change - Plumbing package,Owner-Directed Change,Owner,2024-06-27,2024-08-18,401500,346800,9,Approved,Plumbing
+CO-00374,PRJ-053,Weather Impact - Mechanical package,Weather Impact,External,2024-07-30,2024-09-03,137500,128700,12,Approved,Mechanical
+CO-00378,PRJ-053,Unforeseen Condition - Structural package,Unforeseen Condition,External,2024-09-22,2024-11-23,860500,745300,8,Approved,Structural
+CO-00373,PRJ-053,Owner-Directed Change - Mechanical package,Owner-Directed Change,Owner,2024-11-29,2025-01-22,1628400,1291500,6,Approved,Mechanical
+CO-00379,PRJ-053,Utility Conflict - Fire Protection package,Utility Conflict,External,2025-05-23,2025-07-16,682600,552600,4,Approved,Fire Protection
+CO-00377,PRJ-053,Design Error or Omission - Architectural package,Design Error or Omission,Designer,2025-07-22,2025-07-25,492300,455600,3,Approved,Architectural
+CO-00385,PRJ-054,Unforeseen Condition - Structural package,Unforeseen Condition,External,2022-08-12,,624200,,9,Pending,Structural
+CO-00384,PRJ-054,Code or Regulatory Requirement - Civil package,Code or Regulatory Requirement,External,2022-08-23,,353900,,0,Pending,Civil
+CO-00381,PRJ-054,Coordination Issue - Structural package,Coordination Issue,Contractor,2023-10-13,2023-11-17,614000,515200,0,Approved,Structural
+CO-00382,PRJ-054,Owner-Directed Change - Mechanical package,Owner-Directed Change,Owner,2023-11-10,2023-12-29,345400,320000,7,Approved,Mechanical
+CO-00386,PRJ-054,Design Error or Omission - Civil package,Design Error or Omission,Designer,2024-02-04,,650100,,8,Pending,Civil
+CO-00383,PRJ-054,Unforeseen Condition - Structural package,Unforeseen Condition,External,2024-03-11,2024-04-13,197600,159900,7,Approved,Structural
+CO-00389,PRJ-055,Coordination Issue - Mechanical package,Coordination Issue,Contractor,2022-04-16,,177100,,7,Rejected,Mechanical
+CO-00390,PRJ-055,Code or Regulatory Requirement - Structural package,Code or Regulatory Requirement,External,2022-10-08,2022-11-15,57100,42100,13,Approved,Structural
+CO-00387,PRJ-055,Design Error or Omission - Structural package,Design Error or Omission,Designer,2023-01-16,2023-03-01,43600,44000,11,Approved,Structural
+CO-00388,PRJ-055,Owner-Directed Change - Fire Protection package,Owner-Directed Change,Owner,2023-02-14,2023-03-25,434400,338900,0,Approved,Fire Protection
+CO-00394,PRJ-056,Owner-Directed Change - Plumbing package,Owner-Directed Change,Owner,2022-08-18,2022-10-01,50100,50100,2,Approved,Plumbing
+CO-00395,PRJ-056,Owner-Directed Change - Structural package,Owner-Directed Change,Owner,2022-09-27,,162200,,9,Withdrawn,Structural
+CO-00396,PRJ-056,Design Error or Omission - Structural package,Design Error or Omission,Designer,2022-12-13,2023-02-05,178600,147900,8,Approved,Structural
+CO-00397,PRJ-056,Unforeseen Condition - Architectural package,Unforeseen Condition,External,2023-12-14,,275300,,8,Pending,Architectural
+CO-00393,PRJ-056,Unforeseen Condition - Fire Protection package,Unforeseen Condition,External,2024-01-15,2024-03-11,470100,352900,23,Approved,Fire Protection
+CO-00391,PRJ-056,Unforeseen Condition - Architectural package,Unforeseen Condition,External,2024-05-16,2024-08-05,18300,13400,22,Approved,Architectural
+CO-00392,PRJ-056,Scope Clarification - Plumbing package,Scope Clarification,Owner,2024-06-01,2024-07-06,101200,79400,0,Approved,Plumbing
+CO-00398,PRJ-056,Contractor-Requested Change - Electrical package,Contractor-Requested Change,Contractor,2024-06-26,2024-07-22,48000,37700,0,Approved,Electrical
+CO-00401,PRJ-057,Owner-Directed Change - Architectural package,Owner-Directed Change,Owner,2024-03-20,2024-05-09,696100,641900,3,Approved,Architectural
+CO-00402,PRJ-057,Contractor-Requested Change - Fire Protection package,Contractor-Requested Change,Contractor,2024-10-17,2024-11-25,56800,42800,0,Approved,Fire Protection
+CO-00403,PRJ-057,Unforeseen Condition - Architectural package,Unforeseen Condition,External,2024-12-12,2025-02-21,127500,102300,23,Approved,Architectural
+CO-00400,PRJ-057,Contractor-Requested Change - Architectural package,Contractor-Requested Change,Contractor,2025-03-05,,156100,,2,Pending,Architectural
+CO-00405,PRJ-057,Design Error or Omission - Fire Protection package,Design Error or Omission,Designer,2025-07-24,2025-09-03,382200,386700,5,Approved,Fire Protection
+CO-00404,PRJ-057,Scope Clarification - Electrical package,Scope Clarification,Owner,2025-11-22,2025-12-22,58100,43400,0,Approved,Electrical
+CO-00399,PRJ-057,Owner-Directed Change - Mechanical package,Owner-Directed Change,Owner,2025-12-09,,168900,,10,Pending,Mechanical
+CO-00410,PRJ-058,Owner-Directed Change - Civil package,Owner-Directed Change,Owner,2023-04-20,,515800,,6,Pending,Civil
+CO-00407,PRJ-058,Design Error or Omission - Structural package,Design Error or Omission,Designer,2023-05-24,2023-06-13,18600,17400,8,Approved,Structural
+CO-00408,PRJ-058,Coordination Issue - Electrical package,Coordination Issue,Contractor,2024-11-07,2025-01-05,180000,162400,4,Approved,Electrical
+CO-00411,PRJ-058,Owner-Directed Change - Civil package,Owner-Directed Change,Owner,2025-03-04,2025-05-01,442900,327900,9,Approved,Civil
+CO-00412,PRJ-058,Scope Clarification - Architectural package,Scope Clarification,Owner,2025-04-18,,89400,,2,Pending,Architectural
+CO-00409,PRJ-058,Unforeseen Condition - Structural package,Unforeseen Condition,External,2025-04-27,2025-05-14,345900,332600,7,Approved,Structural
+CO-00406,PRJ-058,Contractor-Requested Change - Civil package,Contractor-Requested Change,Contractor,2025-10-02,2025-11-05,228200,173800,0,Approved,Civil
+CO-00418,PRJ-059,Code or Regulatory Requirement - Mechanical package,Code or Regulatory Requirement,External,2024-11-02,,74500,,13,Withdrawn,Mechanical
+CO-00415,PRJ-059,Owner-Directed Change - Electrical package,Owner-Directed Change,Owner,2025-02-16,2025-03-23,439500,394600,12,Approved,Electrical
+CO-00413,PRJ-059,Contractor-Requested Change - Electrical package,Contractor-Requested Change,Contractor,2025-07-26,,59900,,7,Pending,Electrical
+CO-00414,PRJ-059,Code or Regulatory Requirement - Plumbing package,Code or Regulatory Requirement,External,2025-08-11,2025-09-13,63500,55500,7,Approved,Plumbing
+CO-00416,PRJ-059,Owner-Directed Change - Mechanical package,Owner-Directed Change,Owner,2025-08-28,,439200,,8,Withdrawn,Mechanical
+CO-00417,PRJ-059,Code or Regulatory Requirement - Electrical package,Code or Regulatory Requirement,External,2025-11-08,,137500,,2,Pending,Electrical
+CO-00426,PRJ-060,Design Error or Omission - Mechanical package,Design Error or Omission,Designer,2023-04-17,,99200,,9,Rejected,Mechanical
+CO-00419,PRJ-060,Coordination Issue - Mechanical package,Coordination Issue,Contractor,2023-06-18,,15500,,11,Pending,Mechanical
+CO-00423,PRJ-060,Design Error or Omission - Fire Protection package,Design Error or Omission,Designer,2024-02-22,2024-03-25,408800,320900,5,Approved,Fire Protection
+CO-00421,PRJ-060,Unforeseen Condition - Structural package,Unforeseen Condition,External,2024-04-11,,160500,,11,Rejected,Structural
+CO-00420,PRJ-060,Coordination Issue - Mechanical package,Coordination Issue,Contractor,2024-05-10,2024-07-09,92000,92000,1,Approved,Mechanical
+CO-00422,PRJ-060,Weather Impact - Fire Protection package,Weather Impact,External,2024-06-04,2024-07-21,23700,20900,16,Approved,Fire Protection
+CO-00424,PRJ-060,Utility Conflict - Civil package,Utility Conflict,External,2024-07-23,2024-09-11,69700,51300,10,Approved,Civil
+CO-00427,PRJ-060,Unforeseen Condition - Civil package,Unforeseen Condition,External,2024-08-08,2024-09-24,38200,34700,16,Approved,Civil
+CO-00425,PRJ-060,Owner-Directed Change - Electrical package,Owner-Directed Change,Owner,2024-08-24,,112800,,12,Rejected,Electrical
+CO-00428,PRJ-061,Coordination Issue - Mechanical package,Coordination Issue,Contractor,2023-06-24,2023-08-19,444200,426300,7,Approved,Mechanical
+CO-00437,PRJ-061,Utility Conflict - Electrical package,Utility Conflict,External,2023-09-02,2023-11-16,86100,80300,17,Approved,Electrical
+CO-00431,PRJ-061,Unforeseen Condition - Plumbing package,Unforeseen Condition,External,2023-10-07,2023-11-14,119300,90400,10,Approved,Plumbing
+CO-00433,PRJ-061,Design Error or Omission - Civil package,Design Error or Omission,Designer,2023-10-25,2023-11-24,495900,487500,19,Approved,Civil
+CO-00436,PRJ-061,Contractor-Requested Change - Electrical package,Contractor-Requested Change,Contractor,2024-01-21,2024-02-08,329300,242500,0,Approved,Electrical
+CO-00429,PRJ-061,Owner-Directed Change - Civil package,Owner-Directed Change,Owner,2024-02-03,,94100,,13,Pending,Civil
+CO-00435,PRJ-061,Utility Conflict - Electrical package,Utility Conflict,External,2024-03-03,2024-05-10,820900,604500,14,Approved,Electrical
+CO-00432,PRJ-061,Coordination Issue - Electrical package,Coordination Issue,Contractor,2024-05-19,,48100,,7,Pending,Electrical
+CO-00430,PRJ-061,Owner-Directed Change - Mechanical package,Owner-Directed Change,Owner,2024-08-27,2024-10-10,424800,381700,8,Approved,Mechanical
+CO-00434,PRJ-061,Owner-Directed Change - Civil package,Owner-Directed Change,Owner,2024-09-29,2024-12-06,278000,281400,10,Approved,Civil
+CO-00445,PRJ-062,Owner-Directed Change - Fire Protection package,Owner-Directed Change,Owner,2024-09-13,2024-11-26,385700,330500,5,Approved,Fire Protection
+CO-00448,PRJ-062,Contractor-Requested Change - Civil package,Contractor-Requested Change,Contractor,2024-09-22,,101900,,0,Pending,Civil
+CO-00440,PRJ-062,Design Error or Omission - Fire Protection package,Design Error or Omission,Designer,2024-12-23,2025-03-19,248500,215700,12,Approved,Fire Protection
+CO-00444,PRJ-062,Owner-Directed Change - Fire Protection package,Owner-Directed Change,Owner,2025-01-22,,537200,,10,Withdrawn,Fire Protection
+CO-00439,PRJ-062,Design Error or Omission - Electrical package,Design Error or Omission,Designer,2025-03-30,2025-05-15,265000,223800,9,Approved,Electrical
+CO-00443,PRJ-062,Unforeseen Condition - Plumbing package,Unforeseen Condition,External,2025-04-17,,949000,,19,Pending,Plumbing
+CO-00442,PRJ-062,Unforeseen Condition - Fire Protection package,Unforeseen Condition,External,2025-04-24,,320800,,14,Withdrawn,Fire Protection
+CO-00438,PRJ-062,Scope Clarification - Structural package,Scope Clarification,Owner,2025-05-05,,62300,,1,Rejected,Structural
+CO-00447,PRJ-062,Scope Clarification - Structural package,Scope Clarification,Owner,2025-06-26,2025-08-23,167400,152100,8,Approved,Structural
+CO-00446,PRJ-062,Material Substitution - Mechanical package,Material Substitution,Contractor,2025-09-25,,551600,,15,Pending,Mechanical
+CO-00441,PRJ-062,Owner-Directed Change - Electrical package,Owner-Directed Change,Owner,2025-12-01,2026-01-11,245600,218500,0,Approved,Electrical
+CO-00449,PRJ-063,Contractor-Requested Change - Civil package,Contractor-Requested Change,Contractor,2024-07-14,2024-10-15,661500,651600,0,Approved,Civil
+CO-00455,PRJ-063,Material Substitution - Plumbing package,Material Substitution,Contractor,2024-08-03,2024-10-16,139900,137500,1,Approved,Plumbing
+CO-00454,PRJ-063,Design Error or Omission - Mechanical package,Design Error or Omission,Designer,2024-08-10,2024-09-24,3420600,3168600,13,Approved,Mechanical
+CO-00451,PRJ-063,Owner-Directed Change - Architectural package,Owner-Directed Change,Owner,2024-11-18,,377800,,9,Pending,Architectural
+CO-00457,PRJ-063,Weather Impact - Civil package,Weather Impact,External,2024-11-19,2024-12-28,632400,469600,7,Approved,Civil
+CO-00453,PRJ-063,Scope Clarification - Architectural package,Scope Clarification,Owner,2025-05-07,2025-08-02,1329500,1251600,1,Approved,Architectural
+CO-00452,PRJ-063,Unforeseen Condition - Electrical package,Unforeseen Condition,External,2025-06-01,2025-07-11,4342600,3822100,12,Approved,Electrical
+CO-00450,PRJ-063,Owner-Directed Change - Architectural package,Owner-Directed Change,Owner,2025-06-21,2025-07-20,453000,465000,3,Approved,Architectural
+CO-00456,PRJ-063,Unforeseen Condition - Fire Protection package,Unforeseen Condition,External,2025-12-20,2026-01-14,1227900,1226000,19,Approved,Fire Protection
+CO-00464,PRJ-064,Design Error or Omission - Civil package,Design Error or Omission,Designer,2022-08-19,,36800,,16,Pending,Civil
+CO-00459,PRJ-064,Scope Clarification - Architectural package,Scope Clarification,Owner,2022-12-06,,37500,,5,Pending,Architectural
+CO-00462,PRJ-064,Design Error or Omission - Electrical package,Design Error or Omission,Designer,2023-04-24,2023-06-29,95500,82700,12,Approved,Electrical
+CO-00463,PRJ-064,Unforeseen Condition - Civil package,Unforeseen Condition,External,2023-07-24,2023-10-01,24500,25200,21,Approved,Civil
+CO-00458,PRJ-064,Weather Impact - Architectural package,Weather Impact,External,2023-08-29,,12500,,7,Rejected,Architectural
+CO-00460,PRJ-064,Utility Conflict - Civil package,Utility Conflict,External,2023-11-12,,74000,,15,Rejected,Civil
+CO-00461,PRJ-064,Unforeseen Condition - Structural package,Unforeseen Condition,External,2024-01-24,2024-03-03,23100,22500,14,Approved,Structural
+CO-00466,PRJ-064,Material Substitution - Civil package,Material Substitution,Contractor,2024-02-08,,22400,,11,Rejected,Civil
+CO-00465,PRJ-064,Material Substitution - Civil package,Material Substitution,Contractor,2024-02-18,2024-04-06,65300,58300,8,Approved,Civil
+CO-00467,PRJ-064,Unforeseen Condition - Civil package,Unforeseen Condition,External,2024-06-17,2024-08-22,63000,48600,16,Approved,Civil
+CO-00473,PRJ-065,Coordination Issue - Fire Protection package,Coordination Issue,Contractor,2022-06-20,2022-06-27,347100,322000,8,Approved,Fire Protection
+CO-00470,PRJ-065,Utility Conflict - Fire Protection package,Utility Conflict,External,2022-06-30,2022-08-15,530700,450600,16,Approved,Fire Protection
+CO-00472,PRJ-065,Design Error or Omission - Fire Protection package,Design Error or Omission,Designer,2022-11-08,2022-12-20,998100,783800,12,Approved,Fire Protection
+CO-00469,PRJ-065,Owner-Directed Change - Mechanical package,Owner-Directed Change,Owner,2022-12-23,,120000,,5,Pending,Mechanical
+CO-00474,PRJ-065,Contractor-Requested Change - Structural package,Contractor-Requested Change,Contractor,2022-12-26,,146500,,0,Rejected,Structural
+CO-00471,PRJ-065,Scope Clarification - Structural package,Scope Clarification,Owner,2023-02-25,2023-04-05,131600,109100,9,Approved,Structural
+CO-00476,PRJ-065,Owner-Directed Change - Structural package,Owner-Directed Change,Owner,2023-06-22,2023-07-05,236200,192400,7,Approved,Structural
+CO-00468,PRJ-065,Scope Clarification - Architectural package,Scope Clarification,Owner,2023-09-11,2023-10-18,142900,134000,1,Approved,Architectural
+CO-00475,PRJ-065,Unforeseen Condition - Plumbing package,Unforeseen Condition,External,2024-05-30,2024-08-09,712300,540800,4,Approved,Plumbing
+CO-00480,PRJ-066,Scope Clarification - Civil package,Scope Clarification,Owner,2024-03-04,2024-04-08,77200,77900,0,Approved,Civil
+CO-00481,PRJ-066,Owner-Directed Change - Mechanical package,Owner-Directed Change,Owner,2024-05-14,,32400,,12,Pending,Mechanical
+CO-00479,PRJ-066,Design Error or Omission - Civil package,Design Error or Omission,Designer,2024-07-02,,348900,,12,Withdrawn,Civil
+CO-00482,PRJ-066,Design Error or Omission - Plumbing package,Design Error or Omission,Designer,2025-02-24,2025-04-12,293300,245100,2,Approved,Plumbing
+CO-00478,PRJ-066,Unforeseen Condition - Structural package,Unforeseen Condition,External,2025-05-06,,154900,,10,Pending,Structural
+CO-00477,PRJ-066,Material Substitution - Plumbing package,Material Substitution,Contractor,2025-12-19,,70700,,5,Rejected,Plumbing
+CO-00484,PRJ-067,Unforeseen Condition - Fire Protection package,Unforeseen Condition,External,2024-07-05,2024-08-30,249000,245900,16,Approved,Fire Protection
+CO-00488,PRJ-067,Unforeseen Condition - Fire Protection package,Unforeseen Condition,External,2024-12-02,,132000,,16,Pending,Fire Protection
+CO-00487,PRJ-067,Owner-Directed Change - Civil package,Owner-Directed Change,Owner,2025-04-03,,124000,,5,Withdrawn,Civil
+CO-00485,PRJ-067,Design Error or Omission - Fire Protection package,Design Error or Omission,Designer,2025-06-06,2025-08-19,755500,692100,19,Approved,Fire Protection
+CO-00483,PRJ-067,Coordination Issue - Structural package,Coordination Issue,Contractor,2025-06-13,2025-08-11,99800,100300,7,Approved,Structural
+CO-00489,PRJ-067,Weather Impact - Electrical package,Weather Impact,External,2025-06-17,2025-08-30,32600,30800,10,Approved,Electrical
+CO-00486,PRJ-067,Utility Conflict - Electrical package,Utility Conflict,External,2025-10-22,,345300,,21,Pending,Electrical
+CO-00493,PRJ-068,Owner-Directed Change - Civil package,Owner-Directed Change,Owner,2022-10-12,2022-12-08,367600,315400,6,Approved,Civil
+CO-00497,PRJ-068,Code or Regulatory Requirement - Architectural package,Code or Regulatory Requirement,External,2023-04-07,2023-05-03,1111200,1083000,1,Approved,Architectural
+CO-00499,PRJ-068,Coordination Issue - Civil package,Coordination Issue,Contractor,2023-05-16,2023-06-24,37100,26800,16,Approved,Civil
+CO-00491,PRJ-068,Owner-Directed Change - Electrical package,Owner-Directed Change,Owner,2023-06-02,2023-07-01,217900,182300,7,Approved,Electrical
+CO-00492,PRJ-068,Design Error or Omission - Mechanical package,Design Error or Omission,Designer,2023-06-03,,79800,,7,Pending,Mechanical
+CO-00494,PRJ-068,Design Error or Omission - Civil package,Design Error or Omission,Designer,2023-10-27,,398700,,23,Pending,Civil
+CO-00498,PRJ-068,Scope Clarification - Fire Protection package,Scope Clarification,Owner,2024-01-15,2024-03-12,98000,99600,12,Approved,Fire Protection
+CO-00490,PRJ-068,Coordination Issue - Architectural package,Coordination Issue,Contractor,2024-09-19,2024-11-03,106400,87600,0,Approved,Architectural
+CO-00496,PRJ-068,Material Substitution - Architectural package,Material Substitution,Contractor,2024-12-31,2025-02-16,464500,369300,7,Approved,Architectural
+CO-00508,PRJ-069,Coordination Issue - Electrical package,Coordination Issue,Contractor,2024-11-06,,1285600,,1,Rejected,Electrical
+CO-00502,PRJ-069,Material Substitution - Fire Protection package,Material Substitution,Contractor,2024-12-06,2024-12-21,603500,489400,9,Approved,Fire Protection
+CO-00509,PRJ-069,Code or Regulatory Requirement - Electrical package,Code or Regulatory Requirement,External,2024-12-11,2025-01-16,492500,435800,7,Approved,Electrical
+CO-00500,PRJ-069,Scope Clarification - Mechanical package,Scope Clarification,Owner,2025-04-20,2025-06-21,263200,264500,6,Approved,Mechanical
+CO-00505,PRJ-069,Owner-Directed Change - Fire Protection package,Owner-Directed Change,Owner,2025-05-05,2025-07-18,1079400,1029200,6,Approved,Fire Protection
+CO-00506,PRJ-069,Contractor-Requested Change - Mechanical package,Contractor-Requested Change,Contractor,2025-05-09,2025-08-03,274800,230100,6,Approved,Mechanical
+CO-00501,PRJ-069,Unforeseen Condition - Mechanical package,Unforeseen Condition,External,2025-06-22,,510500,,27,Rejected,Mechanical
+CO-00510,PRJ-069,Design Error or Omission - Fire Protection package,Design Error or Omission,Designer,2025-06-24,2025-08-11,874600,697000,17,Approved,Fire Protection
+CO-00504,PRJ-069,Design Error or Omission - Electrical package,Design Error or Omission,Designer,2025-08-11,2025-09-21,193100,167500,14,Approved,Electrical
+CO-00503,PRJ-069,Code or Regulatory Requirement - Plumbing package,Code or Regulatory Requirement,External,2025-09-15,2025-11-21,2233200,2091200,0,Approved,Plumbing
+CO-00511,PRJ-069,Owner-Directed Change - Electrical package,Owner-Directed Change,Owner,2025-10-18,2026-01-02,843800,770900,5,Approved,Electrical
+CO-00507,PRJ-069,Material Substitution - Plumbing package,Material Substitution,Contractor,2025-11-13,2026-01-03,235000,182300,0,Approved,Plumbing
+CO-00513,PRJ-070,Owner-Directed Change - Fire Protection package,Owner-Directed Change,Owner,2024-01-28,2024-03-10,596500,604600,8,Approved,Fire Protection
+CO-00516,PRJ-070,Material Substitution - Structural package,Material Substitution,Contractor,2024-06-10,,480500,,9,Withdrawn,Structural
+CO-00518,PRJ-070,Owner-Directed Change - Mechanical package,Owner-Directed Change,Owner,2024-09-06,,897300,,8,Pending,Mechanical
+CO-00514,PRJ-070,Design Error or Omission - Civil package,Design Error or Omission,Designer,2024-10-05,2024-11-22,1306100,1342500,3,Approved,Civil
+CO-00515,PRJ-070,Scope Clarification - Fire Protection package,Scope Clarification,Owner,2024-12-05,,483500,,1,Rejected,Fire Protection
+CO-00512,PRJ-070,Scope Clarification - Civil package,Scope Clarification,Owner,2025-03-04,,732000,,0,Pending,Civil
+CO-00517,PRJ-070,Material Substitution - Mechanical package,Material Substitution,Contractor,2025-05-08,2025-07-08,124500,124900,2,Approved,Mechanical
+CO-00520,PRJ-071,Weather Impact - Electrical package,Weather Impact,External,2024-05-21,2024-06-21,225700,231400,12,Approved,Electrical
+CO-00522,PRJ-071,Coordination Issue - Structural package,Coordination Issue,Contractor,2024-12-24,2025-02-11,567600,458000,5,Approved,Structural
+CO-00523,PRJ-071,Owner-Directed Change - Electrical package,Owner-Directed Change,Owner,2025-05-24,2025-05-30,585400,575300,4,Approved,Electrical
+CO-00521,PRJ-071,Unforeseen Condition - Fire Protection package,Unforeseen Condition,External,2025-06-24,2025-08-27,1804400,1762200,14,Approved,Fire Protection
+CO-00519,PRJ-071,Design Error or Omission - Mechanical package,Design Error or Omission,Designer,2025-08-20,2025-10-05,1094400,844000,1,Approved,Mechanical
+CO-00524,PRJ-071,Contractor-Requested Change - Structural package,Contractor-Requested Change,Contractor,2025-08-30,2025-10-04,258500,249400,3,Approved,Structural
+CO-00525,PRJ-071,Code or Regulatory Requirement - Structural package,Code or Regulatory Requirement,External,2025-10-20,2025-11-13,360700,338100,12,Approved,Structural
+CO-00533,PRJ-072,Owner-Directed Change - Electrical package,Owner-Directed Change,Owner,2022-10-06,2022-11-26,198900,154400,7,Approved,Electrical
+CO-00526,PRJ-072,Design Error or Omission - Architectural package,Design Error or Omission,Designer,2022-12-06,,648800,,10,Rejected,Architectural
+CO-00529,PRJ-072,Material Substitution - Structural package,Material Substitution,Contractor,2022-12-15,,415200,,6,Rejected,Structural
+CO-00528,PRJ-072,Unforeseen Condition - Fire Protection package,Unforeseen Condition,External,2023-05-20,2023-07-04,143700,113200,14,Approved,Fire Protection
+CO-00527,PRJ-072,Contractor-Requested Change - Fire Protection package,Contractor-Requested Change,Contractor,2023-06-01,2023-06-08,161400,151700,0,Approved,Fire Protection
+CO-00531,PRJ-072,Coordination Issue - Electrical package,Coordination Issue,Contractor,2023-08-07,,125300,,4,Pending,Electrical
+CO-00534,PRJ-072,Owner-Directed Change - Plumbing package,Owner-Directed Change,Owner,2023-10-05,2023-10-15,215600,193700,3,Approved,Plumbing
+CO-00530,PRJ-072,Owner-Directed Change - Plumbing package,Owner-Directed Change,Owner,2024-03-01,,181500,,0,Pending,Plumbing
+CO-00535,PRJ-072,Scope Clarification - Plumbing package,Scope Clarification,Owner,2024-09-14,2024-10-12,407300,295900,7,Approved,Plumbing
+CO-00532,PRJ-072,Design Error or Omission - Fire Protection package,Design Error or Omission,Designer,2024-10-06,,338500,,9,Rejected,Fire Protection
+CO-00538,PRJ-073,Coordination Issue - Architectural package,Coordination Issue,Contractor,2024-01-24,2024-04-05,234800,218400,8,Approved,Architectural
+CO-00536,PRJ-073,Unforeseen Condition - Structural package,Unforeseen Condition,External,2024-07-28,2024-08-27,360400,294000,18,Approved,Structural
+CO-00537,PRJ-073,Owner-Directed Change - Electrical package,Owner-Directed Change,Owner,2024-10-21,2024-12-18,292300,286200,8,Approved,Electrical
+CO-00543,PRJ-074,Material Substitution - Architectural package,Material Substitution,Contractor,2022-09-10,,148000,,13,Withdrawn,Architectural
+CO-00539,PRJ-074,Coordination Issue - Mechanical package,Coordination Issue,Contractor,2023-03-14,,88000,,12,Pending,Mechanical
+CO-00541,PRJ-074,Coordination Issue - Fire Protection package,Coordination Issue,Contractor,2023-04-19,2023-05-30,142600,107400,1,Approved,Fire Protection
+CO-00540,PRJ-074,Coordination Issue - Electrical package,Coordination Issue,Contractor,2023-06-30,2023-08-07,112300,97600,2,Approved,Electrical
+CO-00545,PRJ-074,Design Error or Omission - Plumbing package,Design Error or Omission,Designer,2023-07-25,2023-08-08,341200,348100,9,Approved,Plumbing
+CO-00542,PRJ-074,Utility Conflict - Architectural package,Utility Conflict,External,2024-01-25,2024-01-28,498900,453800,8,Approved,Architectural
+CO-00544,PRJ-074,Code or Regulatory Requirement - Structural package,Code or Regulatory Requirement,External,2025-03-17,2025-05-06,1936200,1540100,14,Approved,Structural
+CO-00551,PRJ-075,Owner-Directed Change - Mechanical package,Owner-Directed Change,Owner,2024-01-30,2024-03-29,500400,416600,10,Approved,Mechanical
+CO-00553,PRJ-075,Owner-Directed Change - Mechanical package,Owner-Directed Change,Owner,2024-02-13,2024-05-05,376400,322000,14,Approved,Mechanical
+CO-00552,PRJ-075,Owner-Directed Change - Structural package,Owner-Directed Change,Owner,2024-04-22,,376200,,10,Pending,Structural
+CO-00554,PRJ-075,Design Error or Omission - Plumbing package,Design Error or Omission,Designer,2024-09-23,,480400,,0,Pending,Plumbing
+CO-00549,PRJ-075,Coordination Issue - Structural package,Coordination Issue,Contractor,2024-11-03,,375100,,5,Rejected,Structural
+CO-00546,PRJ-075,Scope Clarification - Structural package,Scope Clarification,Owner,2024-11-29,2025-01-25,315800,230400,0,Approved,Structural
+CO-00548,PRJ-075,Design Error or Omission - Plumbing package,Design Error or Omission,Designer,2025-06-29,2025-08-13,1789600,1499400,15,Approved,Plumbing
+CO-00547,PRJ-075,Code or Regulatory Requirement - Architectural package,Code or Regulatory Requirement,External,2025-08-22,2025-10-15,322800,238600,12,Approved,Architectural
+CO-00550,PRJ-075,Design Error or Omission - Civil package,Design Error or Omission,Designer,2025-08-26,2025-10-14,853000,830400,17,Approved,Civil

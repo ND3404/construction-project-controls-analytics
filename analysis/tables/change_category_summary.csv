@@ -1,0 +1,11 @@
+﻿Change_Category,Change_Count,Approved_Count,Approved_Value,Pending_Value,Approved_Schedule_Impact_Days,Avg_Approval_Days
+Owner-Directed Change,106,74,42848100,10166400,487,44.93243243
+Design Error or Omission,106,72,31940300,6151600,635,42.68055556
+Unforeseen Condition,69,52,23709000,4468600,700,47.57692308
+Scope Clarification,52,35,14993500,940100,141,41.2
+Utility Conflict,34,26,10285900,615200,306,40.07692308
+Code or Regulatory Requirement,28,17,9081800,1386400,136,44.35294118
+Coordination Issue,63,37,8565800,2749200,224,46.10810811
+Material Substitution,41,23,4388100,3186400,132,44.65217391
+Contractor-Requested Change,36,20,4372400,962300,50,39.3
+Weather Impact,18,11,1433800,265000,87,48.81818182
