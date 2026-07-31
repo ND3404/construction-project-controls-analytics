@@ -29,16 +29,27 @@ ASSETS = ROOT / "share" / "assets"
 ASSETS.mkdir(parents=True, exist_ok=True)
 
 # --------------------------------------------------------------------------
-# House style
+# House style — In Project design system
+# Tokens mirror inproject-website/src/index.css and
+# inproject-ai-agents/public/site.css so charts, web and report stay in step.
 # --------------------------------------------------------------------------
-NAVY = "#12395B"
-BLUE = "#1F6FB2"
-TEAL = "#2E8B99"
-AMBER = "#E0A32E"
-RED = "#C0392B"
-GREEN = "#3F8F5C"
-GREY = "#6B7785"
-LIGHT = "#E8EDF2"
+NAVY = "#02000B"       # --navy / --ink : headings
+INK = "#272421"        # --text : body copy
+BRICK = "#A04732"      # --brick / --terracotta : primary accent
+BRICK_2 = "#BD5A43"    # --terracotta-2
+STEEL = "#53616D"      # --steel : secondary series
+SAGE = "#647267"       # --sage : tertiary series
+AMBER = "#C8881F"      # --amber
+RED = "#C0492F"        # --red
+GREEN = "#3F9D6B"      # --green
+GREY = "#6E6861"       # --muted
+LIGHT = "#EDEAE2"      # --beige : KPI tiles
+LINE = "#DCD4C8"       # --line : axes and gridlines
+PAPER = "#FFFDF8"      # --paper : figure background
+
+# Brand faces: Source Sans 3 (body) and Roboto Slab (display).
+FONT_BODY = "Source Sans 3"
+FONT_DISPLAY = "Roboto Slab"
 
 STATUS_COLORS = {"Red": RED, "Yellow": AMBER, "Green": GREEN}
 
@@ -46,22 +57,23 @@ plt.rcParams.update({
     "figure.dpi": 160,
     "savefig.dpi": 160,
     "savefig.bbox": "tight",
-    "savefig.facecolor": "white",
-    "font.family": "DejaVu Sans",
+    "savefig.facecolor": PAPER,
+    "figure.facecolor": PAPER,
+    "font.family": [FONT_BODY, "DejaVu Sans"],
     "font.size": 10,
     "axes.titlesize": 13,
     "axes.titleweight": "bold",
     "axes.titlecolor": NAVY,
     "axes.labelsize": 10,
-    "axes.labelcolor": "#33414F",
-    "axes.edgecolor": "#C7D0D9",
-    "axes.facecolor": "white",
+    "axes.labelcolor": INK,
+    "axes.edgecolor": LINE,
+    "axes.facecolor": PAPER,
     "axes.grid": True,
     "axes.axisbelow": True,
-    "grid.color": "#DFE5EB",
+    "grid.color": LINE,
     "grid.linewidth": 0.7,
-    "xtick.color": "#5A6672",
-    "ytick.color": "#5A6672",
+    "xtick.color": GREY,
+    "ytick.color": GREY,
     "legend.frameon": False,
 })
 
@@ -82,6 +94,15 @@ def footnote(fig, text="Synthetic portfolio data - illustrative only; not an ind
 
 
 def save(fig, name: str):
+    """Apply the display face to every title, then write the figure."""
+    for ax in fig.axes:
+        t = ax.title
+        if t.get_text():
+            t.set_fontfamily(FONT_DISPLAY)
+            t.set_fontweight("bold")
+    if fig._suptitle is not None:
+        fig._suptitle.set_fontfamily(FONT_DISPLAY)
+
     out = ASSETS / name
     fig.savefig(out)
     plt.close(fig)
@@ -113,7 +134,7 @@ def chart_portfolio_health():
         colors=[STATUS_COLORS[k] for k in counts],
         startangle=90,
         counterclock=False,
-        wedgeprops={"width": 0.42, "edgecolor": "white", "linewidth": 2},
+        wedgeprops={"width": 0.42, "edgecolor": PAPER, "linewidth": 2},
     )
     ax.text(0, 0.10, f"{total}", ha="center", va="center",
             fontsize=30, fontweight="bold", color=NAVY)
@@ -165,12 +186,12 @@ def chart_cpi_spi_trend():
     ax.axhline(1.0, color=GREY, ls="--", lw=1, zorder=1)
     ax.axhline(0.90, color=RED, ls=":", lw=1.1, zorder=1)
 
-    ax.plot(df["Reporting_Date"], df["Weighted_CPI"], color=BLUE, lw=2.4,
+    ax.plot(df["Reporting_Date"], df["Weighted_CPI"], color=BRICK, lw=2.4,
             label="Weighted CPI (cost)")
-    ax.plot(df["Reporting_Date"], df["Weighted_SPI"], color=TEAL, lw=2.4,
+    ax.plot(df["Reporting_Date"], df["Weighted_SPI"], color=STEEL, lw=2.4,
             label="Weighted SPI (schedule)")
 
-    for col, colour in (("Weighted_CPI", BLUE), ("Weighted_SPI", TEAL)):
+    for col, colour in (("Weighted_CPI", BRICK), ("Weighted_SPI", STEEL)):
         ax.scatter(df["Reporting_Date"].iloc[-1], df[col].iloc[-1],
                    color=colour, s=42, zorder=5)
         ax.annotate(f"{df[col].iloc[-1]:.3f}",
@@ -203,7 +224,7 @@ def chart_overrun_by_type():
     for bar, (_, r) in zip(bars, df.iterrows()):
         ax.text(bar.get_width() + 0.0035, bar.get_y() + bar.get_height() / 2,
                 f"{r['Forecast_Overrun_Pct']:.1%}   (n={int(r['Project_Count'])})",
-                va="center", fontsize=9, color="#33414F")
+                va="center", fontsize=9, color=INK)
 
     ax.xaxis.set_major_formatter(pct)
     ax.set_xticks(np.arange(0, 0.21, 0.05))
@@ -228,10 +249,10 @@ def chart_correlations():
     panels = [
         ("Contingency_Burn_Ratio", "Forecast_Overrun_Pct",
          "Contingency Burn Ratio vs Forecast Overrun %",
-         "Contingency burn ratio", "Forecast overrun", BLUE, True),
+         "Contingency burn ratio", "Forecast overrun", BRICK, True),
         ("Avg_RFI_Response_Days", "Schedule_Delay_Days",
          "Average RFI Response Days vs Schedule Delay Days",
-         "Average RFI response (days)", "Schedule delay (days)", TEAL, False),
+         "Average RFI response (days)", "Schedule delay (days)", STEEL, False),
     ]
 
     for ax, (xcol, ycol, key, xlabel, ylabel, colour, ypct) in zip(axes, panels):
@@ -240,7 +261,7 @@ def chart_correlations():
         pt_colours = proj["Health_Status"].map(STATUS_COLORS).fillna(GREY)
 
         ax.scatter(x, y, c=pt_colours, s=34, alpha=0.75,
-                   edgecolor="white", linewidth=0.6, zorder=3)
+                   edgecolor=PAPER, linewidth=0.6, zorder=3)
         slope, intercept = np.polyfit(x, y, 1)
         xs = np.linspace(x.min(), x.max(), 100)
         ax.plot(xs, slope * xs + intercept, color=colour, lw=2, zorder=4)
@@ -261,10 +282,10 @@ def chart_correlations():
     axes[1].set_title("Moderate schedule signal", pad=10)
 
     handles = [plt.Line2D([], [], marker="o", ls="", markersize=7,
-                          markerfacecolor=c, markeredgecolor="white", label=k)
+                          markerfacecolor=c, markeredgecolor=PAPER, label=k)
                for k, c in STATUS_COLORS.items()]
     fig.suptitle("Contingency burn is the leading indicator of cost overrun",
-                 fontsize=13.5, fontweight="bold", color=NAVY, y=1.02)
+                 fontsize=13.5, fontweight="bold", color=NAVY, fontfamily=FONT_DISPLAY, y=1.02)
     fig.tight_layout()
     fig.legend(handles=handles, loc="lower center", ncol=3,
                bbox_to_anchor=(0.5, -0.06), fontsize=9.5)
@@ -289,7 +310,7 @@ def chart_top_risk():
     for bar, (_, r) in zip(bars, df.iterrows()):
         ax.text(bar.get_width() + 0.006, bar.get_y() + bar.get_height() / 2,
                 f"{r['Forecast_Overrun_Pct']:.1%}   CPI {r['CPI']:.2f}   {int(r['Schedule_Delay_Days'])}d late",
-                va="center", fontsize=8.6, color="#33414F")
+                va="center", fontsize=8.6, color=INK)
 
     ax.xaxis.set_major_formatter(pct)
     ax.set_xlim(0, df["Forecast_Overrun_Pct"].max() * 1.42)
@@ -311,9 +332,9 @@ def chart_change_orders():
     fig, axes = plt.subplots(1, 2, figsize=(12, 4.8), sharey=True)
 
     value_m = df["Approved_Value"] / 1e6
-    axes[0].barh(df["Change_Category"], value_m, color=BLUE, height=0.62)
+    axes[0].barh(df["Change_Category"], value_m, color=BRICK, height=0.62)
     for i, v in enumerate(value_m):
-        axes[0].text(v + 0.7, i, f"${v:.1f}M", va="center", fontsize=9, color="#33414F")
+        axes[0].text(v + 0.7, i, f"${v:.1f}M", va="center", fontsize=9, color=INK)
     axes[0].set_xlabel("Approved change-order value ($M)")
     axes[0].set_title("Approved value", pad=10)
     axes[0].set_xlim(0, value_m.max() * 1.22)
@@ -321,7 +342,7 @@ def chart_change_orders():
     days = df["Approved_Schedule_Impact_Days"]
     axes[1].barh(df["Change_Category"], days, color=AMBER, height=0.62)
     for i, v in enumerate(days):
-        axes[1].text(v + 11, i, f"{int(v)}d", va="center", fontsize=9, color="#33414F")
+        axes[1].text(v + 11, i, f"{int(v)}d", va="center", fontsize=9, color=INK)
     axes[1].set_xlabel("Approved schedule impact (days)")
     axes[1].set_title("Schedule impact", pad=10)
     axes[1].set_xlim(0, days.max() * 1.22)
@@ -331,7 +352,7 @@ def chart_change_orders():
         strip_spines(ax)
 
     fig.suptitle("Owner-directed changes drive cost; unforeseen conditions drive delay",
-                 fontsize=13.5, fontweight="bold", color=NAVY, y=1.02)
+                 fontsize=13.5, fontweight="bold", color=NAVY, fontfamily=FONT_DISPLAY, y=1.02)
     fig.tight_layout()
     footnote(fig)
     save(fig, "change_orders_by_category.png")
@@ -345,9 +366,9 @@ def chart_rfi_discipline():
 
     fig, axes = plt.subplots(1, 2, figsize=(11.5, 4.4), sharey=True)
 
-    axes[0].barh(df["Discipline"], df["Avg_Response_Days"], color=BLUE, height=0.6)
+    axes[0].barh(df["Discipline"], df["Avg_Response_Days"], color=BRICK, height=0.6)
     for i, v in enumerate(df["Avg_Response_Days"]):
-        axes[0].text(v + 0.18, i, f"{v:.1f}d", va="center", fontsize=9, color="#33414F")
+        axes[0].text(v + 0.18, i, f"{v:.1f}d", va="center", fontsize=9, color=INK)
     axes[0].set_xlabel("Average response time (days)")
     axes[0].set_title("RFI response time", pad=10)
     axes[0].set_xlim(0, df["Avg_Response_Days"].max() * 1.20)
@@ -355,7 +376,7 @@ def chart_rfi_discipline():
     late_col = "Late_RFI_Rate" if "Late_RFI_Rate" in df.columns else "Late_Rate"
     axes[1].barh(df["Discipline"], df[late_col], color=AMBER, height=0.6)
     for i, v in enumerate(df[late_col]):
-        axes[1].text(v + 0.012, i, f"{v:.0%}", va="center", fontsize=9, color="#33414F")
+        axes[1].text(v + 0.012, i, f"{v:.0%}", va="center", fontsize=9, color=INK)
     axes[1].set_xlabel("Late RFI rate")
     axes[1].set_title("Share of RFIs answered late", pad=10)
     axes[1].xaxis.set_major_formatter(pct)
@@ -366,7 +387,7 @@ def chart_rfi_discipline():
         strip_spines(ax)
 
     fig.suptitle("Every discipline exceeds a 70% late-RFI rate",
-                 fontsize=13.5, fontweight="bold", color=NAVY, y=1.02)
+                 fontsize=13.5, fontweight="bold", color=NAVY, fontfamily=FONT_DISPLAY, y=1.02)
     footnote(fig)
     fig.tight_layout()
     save(fig, "rfi_performance_by_discipline.png")
