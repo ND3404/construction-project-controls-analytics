@@ -102,7 +102,7 @@ Four analytical views (`vw_project_performance_analysis`, `vw_change_order_summa
 ## Reproducing the analysis
 
 ```bash
-git clone https://github.com/<your-username>/construction-project-controls-analytics.git
+git clone https://github.com/ND3404/construction-project-controls-analytics.git
 cd construction-project-controls-analytics
 
 python -m venv .venv
