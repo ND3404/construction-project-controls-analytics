@@ -35,11 +35,11 @@
     "pdf_generated_from_final_docx": true
   },
   "key_files": {
-    "final_report/Construction_Project_Controls_Analytics_Case_Study.docx": {
+    "reports/Construction_Project_Controls_Analytics_Case_Study.docx": {
       "size_bytes": 787242,
       "sha256": "28258e3462bf2ea182aa6e8fc34a1cba446bee5f3b2b2b1c6e8420165d571671"
     },
-    "final_report/Construction_Project_Controls_Analytics_Case_Study.pdf": {
+    "reports/Construction_Project_Controls_Analytics_Case_Study.pdf": {
       "size_bytes": 1170245,
       "sha256": "72ade56732694df9ba48c92abaf1bc66d029841244c605352862de6104b45797"
     },

@@ -6,6 +6,20 @@ An end-to-end data analytics case study covering the full Ask → Prepare → Pr
 
 > **Data disclosure — please read.** Every record in this repository is **synthetic**. The portfolio, projects, clients, and personnel are fictional. Nothing here represents actual client performance, confidential operational data, or verified construction-industry benchmarks. See [`documentation/dataset_methodology.md`](documentation/dataset_methodology.md).
 
+## Read the case study
+
+**[Construction Project Controls Analytics — Case Study (PDF, 20 pages)](reports/Construction_Project_Controls_Analytics_Case_Study.pdf)**  ·  [DOCX version](reports/Construction_Project_Controls_Analytics_Case_Study.docx)
+
+The report is the fastest way to review this project end to end: business framing, data quality, analysis, dashboards, action plan and limitations, with a linked table of contents. Everything else in this repository is the supporting evidence.
+
+| Deliverable | Location |
+|---|---|
+| Case-study report | [`reports/`](reports) |
+| Dashboards | [Executive](share/assets/excel_screenshots/executive_dashboard.png) · [Operational](share/assets/excel_screenshots/operational_insights.png) |
+| Analytical outputs | [`analysis/tables/`](analysis/tables) |
+| SQL | [`sql/`](sql) |
+| Documentation | [`documentation/`](documentation) |
+
 ---
 
 ## The question
@@ -79,7 +93,7 @@ construction-project-controls-analytics/
 │   ├── assets/               Publication charts (PNG)
 │   └── portfolio/            Portfolio case-study webpages
 ├── act/                      90-day action register and governance workbook
-├── final_report/             Consolidated case-study report (DOCX + PDF)
+├── reports/                  Consolidated case-study report (DOCX + PDF)
 ├── automation/               Python alerting script + PowerShell pipeline runner
 └── documentation/            Phase documentation, data dictionary, methodology, cleaning log
 ```

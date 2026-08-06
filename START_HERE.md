@@ -13,7 +13,7 @@ All six Google Data Analytics phases are complete:
 
 ## Recommended opening order
 
-1. `final_report/Construction_Project_Controls_Analytics_Case_Study.pdf`
+1. `reports/Construction_Project_Controls_Analytics_Case_Study.pdf`
 2. `act/construction_project_controls_act_plan.xlsx`
 3. `share/construction_project_controls_share_dashboard.xlsx`
 4. `analysis/excel/construction_project_controls_analysis.xlsx`
